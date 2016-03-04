@@ -1,0 +1,58 @@
+/**header**/
+.header{background: #3c485d;position: relative;height: 40px;width:100%;z-index: 999;}
+.w_common{width:1200px;margin:0 auto;}
+.header_wrap{height: 40px;line-height: 40px;}
+.h_left{color: #fff;font-size: 14px;}
+.h_left span{margin-right: 20px;}
+.h_left i{padding-left: 18px;background: url(../../images/pubic/h_phone.png) no-repeat 0px 3px;}
+.h_left i b{font-weight: normal;font-size: 12px;}
+
+.h_right{font-size: 12px;}
+.h_right a{color: #fff;}
+.h_right a:hover{color: #ff6a52;}
+.h_right a.reg{padding:0 10px;}
+.h_right a.new{padding: 0px 10px;border-left: 1px solid #fff;border-right: 1px solid #fff;display: block;margin: 15px 0px;line-height: 10px;}
+#qq_qun span.qq{background: url(../../images/pubic/h_qq.png) no-repeat;color: #fff;padding-left: 20px;margin-left: 15px;}
+
+.qun_content{position: absolute;background: #fff;box-shadow: 0px 0px 7px #9AA2B3;}
+.arrow_up_k{text-align: center;line-height: 0px;position: relative;top: -13px;}
+.arrow_up{width:0;height: 0;border-left: 8px solid transparent;border-right:8px solid transparent;border-bottom: 8px solid #fff;font-size: 0;line-height: 0;}
+.qun_content ul li{line-height: 30px;padding: 0px 5px;border-bottom: 1px solid #dfdfdf;}
+.qun_content a{color:#3e485b;font-size: 12px;background: url(../../images/pubic/qq_tx.png) no-repeat 0;padding-left: 15px;display: block;}
+.sina_wechat{margin-left: 10px;color: #fff }
+.sina_wechat a{display: block;}
+.sina_wechat a.sina{padding: 0px 7px;}
+.sina_wechat a img{vertical-align: middle;}
+.sina_wechat a.wechat{position: relative;}
+
+.h_app{margin-left: 10px;}
+.h_app img{vertical-align: middle;}
+.h_erweima{position: absolute;background: #fff;box-shadow: 0px 0px 7px #9AA2B3;padding: 5px;left: -31px;}
+
+/**navigation**/
+.navigation{padding-top:15px;}
+.navigation_wrap{height: 80px;}
+.nav_left{line-height: 80px;}
+.nav_left img{vertical-align: middle;}
+
+.nav_left1{margin: 17px 0 0 70px;font-size: 16px;width: 700px;}
+.nav_left1 ul li{width: 66px;height: 34px;line-height: 34px;float: left;text-align: center;margin-right: 2px;border: 1px solid #fff;border-radius: 3px;
+position: relative;display: block;}
+
+
+/**footer**/
+.footer{position: relative;}
+.footer .f_part1{width:100%;background: #3c485d;height: 190px;}
+.footer .f_part2{width:100%;background: #10151a;height: 60px;line-height: 60px}
+.footer .f_part2 img{vertical-align: middle;margin-right: 5px;}
+
+
+
+
+
+
+
+
+
+
+
