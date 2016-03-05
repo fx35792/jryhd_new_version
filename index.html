@@ -8,8 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="css/public/common.css">
 	<script type="text/javascript" src="js/pubic/jquery-1.8.3.js"></script>
 	<script type="text/javascript" src="js/pubic/common.js"></script>
+	<script type="text/javascript" src="js/pubic/jquery.kinMaxShow-1.1.min.js" ></script>
 	<!--index-->
-	<link rel="stylesheet" type="text/css" href="css/public/index.css">
+	<link rel="stylesheet" type="text/css" href="css/index/index.css">
+
 	<script type="text/javascript" src="js/index/index.js"></script>
 </head>
 <body>
@@ -107,7 +109,6 @@
 					<li class="nav-item">
 					    <a href="">金融论坛</a>
 					</li>
-
 				</ul>
 			</div>	
 			<div class="nav_right right">
@@ -117,7 +118,36 @@
 			</div>
 		</div>		
 	</div>
+	
+	<!--index content-->
+	<style type="text/css">
+	    #kinMaxShow{visibility:hidden;width:100%; height:355;overflow:hidden;}
+	</style>
+	<script type="text/javascript">
+	    $(function(){
+	        $("#kinMaxShow").kinMaxShow({
+	            //设置焦点图高度(单位:像素) 必须设置 否则使用默认值 500
+	            height:355,
+	            //设置焦点图 按钮效果
+	            button:{
+	                //设置按钮上面不显示数字索引(默认也是不显示索引)
+	                showIndex:false,
+	                //按钮常规下 样式设置 ，css写法，类似jQuery的 $('xxx').css({key:value,……})中css写法。            
+	                //【友情提示：可以设置透明度哦 不用区分浏览器 统一为 opacity，CSS3属性也支持哦 如：设置按钮圆角、投影等，只不过IE8及以下不支持】            
+	                normal:{background:'url(images/index/dot.png) no-repeat',marginRight:'8px',border:'0',right:'44%',bottom:'20px',height:'15px',width:'15px'},
+	                //当前焦点图按钮样式 设置，写法同上
+	                focus:{background:'url(images/index/dot_focus.png) no-repeat 0 0',border:'0',height:'15px',width:'15px'}
+	            }
+	        });
+	    });
 
+	</script>
+	<!--幻灯片-->
+	<div id="kinMaxShow">
+	    <div>
+	        <a href="" target="_blank"><img src="images/index/banner1.png" /></a>
+	    </div>    
+	</div>
 
 
 	<div class="footer">
@@ -134,7 +164,10 @@
 					</ul>
 					<h2>COPYRIGHT 2013-2015 JR1.CN All Rights Reserved</h2>
 					<h2>北京投融有道科技有限公司  版权所有</h2>
-					<h2>京ICP备13045972号 京公网安备11010802013140号</h2>
+					<h2>
+						<a href="http://www.miibeian.gov.cn" title="京ICP备13045972号" target="_blank">京ICP备13045972号</a> 
+						<a href="http://www.bjgaj.gov.cn/" title="京公网安备11010802013140号" target="_blank">京公网安备11010802013140号</a>
+					</h2>
 				</div>
 				<div class="f_part1_r right">
 					<img src="images/pubic/f_phone.png" height="31" width="287" class="f_phone" alt="f_phone">

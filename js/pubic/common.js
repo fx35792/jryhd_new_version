@@ -12,4 +12,11 @@ $(function(){
 		$(".h_erweima").hide();
 	});
 
+	//导航下拉菜单显示
+	$(".nav-item").hover(function() {
+		$(this).children('.dropbox').show();
+	}, function() {
+		$(this).children('.dropbox').hide();
+	});
+
 });
