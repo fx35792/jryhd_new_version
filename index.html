@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/index/index.css">
 	<script type="text/javascript" src="js/index/index.js"></script>
 </head>
-<body style="height:10000px;">
+<body style="heigth:3000px;">
 	<div class="header">
 		<div class="header_wrap w_common clearfix">
 			<div class="h_left left">
@@ -118,36 +118,26 @@
 		</div>		
 	</div>
 	
-	<!--index content-->
-	<style type="text/css">
-	    #kinMaxShow{visibility:hidden;width:100%; height:355;overflow:hidden;}
-	</style>
-	<script type="text/javascript">
-	    $(function(){
-	        $("#kinMaxShow").kinMaxShow({
-	            //设置焦点图高度(单位:像素) 必须设置 否则使用默认值 500
-	            height:355,
-	            //设置焦点图 按钮效果
-	            button:{
-	                //设置按钮上面不显示数字索引(默认也是不显示索引)
-	                showIndex:false,
-	                //按钮常规下 样式设置 ，css写法，类似jQuery的 $('xxx').css({key:value,……})中css写法。            
-	                //【友情提示：可以设置透明度哦 不用区分浏览器 统一为 opacity，CSS3属性也支持哦 如：设置按钮圆角、投影等，只不过IE8及以下不支持】            
-	                normal:{background:'url(images/index/dot.png) no-repeat',marginRight:'8px',border:'0',right:'44%',bottom:'20px',height:'15px',width:'15px'},
-	                //当前焦点图按钮样式 设置，写法同上
-	                focus:{background:'url(images/index/dot_focus.png) no-repeat 0 0',border:'0',height:'15px',width:'15px'}
-	            }
-	        });
-	    });
-
-	</script>
 	<!--幻灯片-->
 	<div id="kinMaxShow">
 	    <div>
 	        <a href="" target="_blank"><img src="images/index/banner1.png" /></a>
 	    </div>  
-	     
+	    <div>
+	        <a href="" target="_blank"><img src="images/index/banner1.png" /></a>
+	    </div>
+	    <div>
+	        <a href="" target="_blank"><img src="images/index/banner1.png" /></a>
+	    </div>
+	    <div>
+	        <a href="" target="_blank"><img src="images/index/banner1.png" /></a>
+	    </div>
+	    <div>
+	        <a href="" target="_blank"><img src="images/index/banner1.png" /></a>
+	    </div>
 	</div>
+	
+	<!--幻灯片上导航-->
 	<div class="w_common">
     	<div class="cate-wrap">
     		<ul>
@@ -192,7 +182,71 @@
     	</div>	    	
     </div>
 
+	<!--首页公告-->
+	<div class="w_common">
+		<div class="notice clearfix">
+			<i class="left">公告 ：</i>	
+			<div class="notice-content left"> 
+				<a href="">
+					BB购商城于2015年11月9日正式上线了！众多礼品等待大家来领取！&nbsp;&nbsp;&nbsp;&nbsp;金融一号店&nbsp;&nbsp;&nbsp;&nbsp;2016-3-20
+				</a>
+			</div>
+			<a class="right">查看详情</a>
+		</div>
+	</div>
 
+	<!--财富管理-->
+	<div class="floor w_common clearfix">
+		<div class="floor-header">
+			<img src="images/index/title-ico1.png" height="16" width="185" />
+		</div>
+		<div class="floor-content-box fl-bg1 clearfix">
+			<div class="floor-left left">
+				<div class="fl-bg1-link">
+					<a href="" target="_blank">PP宝</a>
+					<a href="" target="_blank">MM计划</a>
+					<a href="" target="_blank">天天理财</a>
+				</div>				
+			</div>
+			<div class="floor-right right">
+				<div class="wealth-fir clearfix">
+					<div class="wealth-fir-left common_content left">
+						<div class="p-name">
+							<span>PP宝</span>
+							<i></i> 
+							<em>每日10点准时抢购，额度有限，先到先得！</em>
+						</div>
+						<div class="p-tips">
+							<span>收益稳健</span>
+							<span>每日提现</span>
+							<span>明星产品</span>
+						</div>
+						<div class="p-profit">
+							<i>昨日万份收益</i>
+							<span>2.418<em>%</em></span>
+						</div>
+						<div class="p-extra">
+							超低门槛，极简理财
+						</div>
+						<div class="p-btn">
+							<a href="">立即投资</a>
+						</div>
+					</div>
+					<div class="wealth-fir-fgx left"></div>
+					<div class="wealth-fir-right right">
+						<a href="" target="_blank">
+							<img src="images/index/ad_jrb1.png" height="147" width="444" class="animate_img">
+						</a>
+					</div>
+				</div>
+				<div class="wealth-sec">
+					
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<!--footer-->
 	<div class="footer">
 		<div class="f_part1">
 			<div class="w_common f_part clearfix">
@@ -239,5 +293,23 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+	    $(function(){
+	        $("#kinMaxShow").kinMaxShow({
+	            //设置焦点图高度(单位:像素) 必须设置 否则使用默认值 500
+	            height:355,
+	            //设置焦点图 按钮效果
+	            button:{
+	                //设置按钮上面不显示数字索引(默认也是不显示索引)
+	                showIndex:false,
+	                //按钮常规下 样式设置 ，css写法，类似jQuery的 $('xxx').css({key:value,……})中css写法。            
+	                //【友情提示：可以设置透明度哦 不用区分浏览器 统一为 opacity，CSS3属性也支持哦 如：设置按钮圆角、投影等，只不过IE8及以下不支持】            
+	                normal:{background:'url(images/index/dot.png) no-repeat',marginRight:'8px',border:'0',right:'44%',bottom:'20px',height:'15px',width:'15px'},
+	                //当前焦点图按钮样式 设置，写法同上
+	                focus:{background:'url(images/index/dot_focus.png) no-repeat 0 0',border:'0',height:'15px',width:'15px'}
+	            }
+	        });
+	    });
+	</script>
 </body>
 </html>

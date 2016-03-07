@@ -1,4 +1,4 @@
-/**header**/
+﻿/**header**/
 .header{background: #3c485d;position: relative;height: 40px;width:100%;z-index: 999;}
 .w_common{width:1200px;margin:0 auto;}
 .header_wrap{height: 40px;line-height: 40px;}
@@ -30,7 +30,7 @@
 .h_erweima{position: absolute;background: #fff;box-shadow: 0px 0px 7px #9AA2B3;padding: 5px;left: -31px;}
 
 /**navigation**/
-#navigation{padding-top:15px;}
+#navigation{padding-top:15px;background: #fff;}
 .navigation{padding-top:0 !important;position: fixed;top: 0;left: 0;z-index: 999999;width:100%;background: #fff;border-bottom: 1px solid #ececec;box-shadow: 0 0 11px rgba(0,0,0,.22);}
 .navigation_wrap{height: 85px;}
 .nav_left{line-height: 85px;}
@@ -49,7 +49,7 @@
 .nav_right a{font-size: 16px;color: #1b1a21;background: url(../../images/pubic/h_member.png) no-repeat 10px 8px #f4f4f4;padding-left: 20px;border: 1px solid #ccc;border-radius: 5px;width: 90px;display: block;text-align: center;height: 35px;line-height: 35px;}
 
 /**footer**/
-.footer{position: relative;}
+.footer{position: relative;bottom: 0}
 .f_part1_l ul{margin-bottom: 18px;}
 .f_part1_l ul li{width:85px;display: inline-block;border-right: 1px solid #e1e1e1;text-align: center;}
 .f_part1_l ul li a{color: #c6c6c6;font-size: 14px;}
