@@ -1,7 +1,13 @@
 .cate-wrap{position: absolute;z-index: 9999;width:170px;height: 270px;background: #fff;margin-top: -310px;margin-left: 10px;}
-.cate-wrap ul{padding:10px;}
-.cate-wrap ul li{border-bottom: 1px solid #eee;padding:15px 0px;}
-.cate-wrap-box {padding-left: 10px;}
+.cate-wrap ul{padding:10px 0px 10px 10px;}
+@-moz-keyframes myfirst{from {left: 0;}to {left: 6px;}}
+@-webkit-keyframes myfirst{from {left: 0;}to {left: 6px;}}
+@-o-keyframes myfirst{from {left: 0;}to {left: 6px;}}
+@keyframes myfirst{from {left: 0;}to {left: 6px;}}
+.cate-wrap ul li{border-bottom: 1px solid #eee;padding:11px 0px;position: relative;border-right: 4px solid #fff;}
+.cate-wrap ul li:hover{border-right: 4px solid #ff7b23;}
+.cate-wrap ul li:hover .cate-wrap-box{left:6px;animation: myfirst .15s;}
+.cate-wrap-box {padding-left: 10px;position: relative;}
 .cate-wrap-box p{line-height: 25px;}
 .cate-wrap-box a{font-size: 14px;color: #9f9f9f;}
 
