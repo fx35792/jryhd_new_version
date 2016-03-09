@@ -95,21 +95,36 @@ body{background: #f8f8f8;}
 .exchange-gift .content i em{font-size: 18px;color: #ff8330;font-weight: normal;}
 .wealth-sec a{display: block;}
 
-/**购物**/
+/**信贷**/
 .floor_h3{height: 499px;}
 .floor-left2{background: url(../../images/index/p-left-img3.png) no-repeat;width: 277px;height: 453px;position: relative;top:-32px;left: -1px;}
 .fl-bg3{height: 420px;border:1px solid #5cdbff;}
 .fl-bg3-link{margin-top: 275px;}
 
-.floor-loan-left{position: relative;border-right: 1px solid #e8e8e8;padding: 0px 20px 20px 10px;}
+.floor-loan-left{position: relative;border-right: 1px solid #e8e8e8;padding: 0px 20px 10px 10px;}
 .floor-loan-left h2{font-size: 20px;color: #2e2e2e;line-height: 30px;}
-.floor-loan-left p{font-size: 14px;color: #b2b2b2;line-height: 30px;padding:10px 0px;}
+.floor-loan-left p{font-size: 14px;color: #b2b2b2;line-height: 26px;padding:10px 0px;}
 .floor-loan-left a{position: absolute; display: block;background: #ff8839;width: 110px;text-align: center;height: 40px;line-height: 40px;right: 10px;font-size: 16px;color: #fff;border-radius: 3px;letter-spacing: 1px;margin-bottom: 35px;left:10px;}
 .floor-loan-left a:hover{background: #e87e34;}
 .floor-loan-left img.house_img{margin-top: 75px;}
 
 .floor-loan-right{width: 590px;}
 .new_three_left{width:165px;}
+.kaijie{padding-top: 10px;}
+.kjbtn{left:426px !important;}
+
+/**邮币卡**/
+.floor_h4{height: 499px;}
+.floor-left3{background: url(../../images/index/p-left-img4.png) no-repeat;width: 277px;height: 452px;position: relative;top:-32px;left: -1px;}
+.fl-bg4{height: 420px;border:1px solid #ffce59;}
+.fl-bg4-link{margin-top: 275px;}
+p.youbi{width: 240px;text-align: justify;height: 80px;}
+
+.floor-loan-left img.youbi_img{margin-top: 60px;}
+.floor-yb-left{padding: 0px 16px 10px 20px !important;}
+a.yb-tbn{left:20px;}
+
+
 
 
 
