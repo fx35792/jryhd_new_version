@@ -73,6 +73,25 @@
 .back_hide a{background: #f98e04;width: 38px; height: 38px;color: #fff;font-size: 14px;display: block;padding: 4px;text-align: center;line-height: 18px;letter-spacing: 3px;margin-bottom: 6px;border-radius: 5px;}
 
 
+/**register navigation**/
+.register_wrap{height: 110px;overflow: hidden;}
+.register_header{margin-top: 25px;}
+.register_header a{display: inline-block;float: left;}
+
+.register_bg{background: url(../../images/register/reg_bg_all.png) center 0 no-repeat #fc6d65;width: 100%;height: 550px;overflow: hidden;}
+.register_content{background: #fff;width: 345px;height: 435px;box-shadow: 0 0 10px #F94341;float: right;margin-top: 50px;}
+
+/**register footer**/
+.reg_footer{text-align: center;}
+.reg_footer .reg_header{padding:20px 0px 10px;margin-left: 350px;}
+.reg_footer .reg_header a{width:85px;float:left;border-right: 1px solid #e1e1e1;text-align: center;line-height: 20px;height: 20px;color: #838383;font-size: 14px;}
+.reg_footer .reg_header a:hover{color: #fc6d65;}
+.reg_footer p{line-height: 25px;color: #999;font-size: 12px;}
+.reg_footer p a{color:#999;}
+.reg_footer p a:hover{color: #fc6d65;text-decoration: underline;}
+
+
+
 
 
 
