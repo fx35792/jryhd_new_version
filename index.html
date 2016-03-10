@@ -6,12 +6,13 @@
 	<!--public-->
 	<link rel="stylesheet" type="text/css" href="css/public/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/public/common.css">
+	<link rel="stylesheet" type="text/css" href="css/public/animate.css">
 	<script type="text/javascript" src="js/pubic/jquery-1.8.3.js"></script>
 	<script type="text/javascript" src="js/pubic/common.js"></script>
 	<script type="text/javascript" src="js/pubic/jquery.kinMaxShow-1.1.min.js" ></script>
-	<!--index-->
-	<link rel="stylesheet" type="text/css" href="css/index/index.css">
 	<script type="text/javascript" src="js/index/timeCountDown2.js"></script>
+	<!--index-->
+	<link rel="stylesheet" type="text/css" href="css/index/index.css">	
 	<script type="text/javascript" src="js/index/index.js"></script>
 </head>
 <body>
@@ -786,11 +787,22 @@
 
 	<!--返回顶部-->
 	<div id="returnback">
-		
+		<div class="back_show">			
+			<a href="" class="back_show_back">
+				<img src="images/pubic/return_01.png" height="71" width="75">
+			</a>
+			<a href="javascript:;">
+				<img src="images/pubic/return_03.png" height="50" width="75">
+			</a>
+		</div>
+		<div class="back_hide" style="display:none">
+			<a href="" class="back_show_back">返回顶部</a>
+			<a href="javascript:;">意见反馈</a>
+		</div>		
 	</div>
 	<script type="text/javascript">
 	    $(function(){
-	    	//幻灯片焦点图
+	    	//幻灯片焦点图 
 	        $("#kinMaxShow").kinMaxShow({	            
 	            height:355,	            
 	            button:{	                

@@ -29,5 +29,28 @@ $(function(){
 		}
 	});
 
+	//返回顶部
+	$("#returnback").hide();
+    $(window).scroll(function(){
+        if($(window).scrollTop()>1000){
+            $("#returnback").fadeIn(800);
+        }else{
+            $("#returnback").fadeOut(800);
+        }
+    });
+    $(".back_show_back").click(function() {
+        $(document.body).animate({scrollTop: 100}, 800);
+        return false;
+    }); 
+    $("#returnback").hover(function() {
+    	$(".back_hide").show();
+    	$(".back_hide").addClass('animated bounceInRight');
+	    setTimeout(function(){
+	       $(".back_hide").removeClass('bounceInRight');
+	    }, 1000);
+    }, function() {
+    	$(".back_hide").hide();
+    });
+
 
 });
