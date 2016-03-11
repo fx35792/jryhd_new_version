@@ -1,15 +1,23 @@
+.register_bg{background: url(../../images/register/reg_bg_all.png) center 0 no-repeat #fc6d65;width: 100%;height: 550px;overflow: hidden;}
+.register_content{background: #fff;width: 345px;box-shadow: 0 0 10px #F94341;float: right;margin-top: 50px;}
 .register_content .r_header{padding-top:10px;height: 20px;line-height: 20px;}
 .register_content .r_header i{border-right:5px solid #f08f4b;font-size: 16px;}
 .register_content .r_header span{font-size: 18px;color: #3e485b;padding-left: 10px;}
 .register_content .r_header a{color: #f08f4b;font-size: 14px;text-decoration: underline;float: right;margin-right: 10px;}
 
-
-
-
-
-
-
-
+.r_content{padding: 15px;}
+.reg_tt_bg{position: relative;top:-8px; background: url(../../images/register/reg_tt_bg.png) no-repeat;width: 309px;height: 22px;line-height: 22px;font-size: 12px;color:#3e485b;text-indent: 5px;}
+.reg_tt_bg a{color:#f08f4b;}
+.r_content p{margin-bottom: 15px;}
+.r_content p input{border: 1px solid #dcdcdc;width:293px;height: 28px;padding:5px 10px;}
+.r_content p input:hover{border:1px solid #f08c48;}
+.r_content .r_yzm input{border: 1px solid #dcdcdc;width:180px;height: 28px;padding:5px 10px;}
+.selectText select{border: 1px solid #dcdcdc;width: 200px;height: 38px;padding: 0px 5px;display: inline-block;background: transparent;}
+.r_content .r_btn{width: 313px;height: 50px;line-height: 50px;font-size: 18px; color: #fff;background: #ef8b47;display: block;text-align: center;}
+.r_content .r_btn:hover{background:#e97e35;}
+.reg_checkbox{position: relative;top:1px;}
+.reg_agreement a{color: #3e485b;font-size: 14px;}
+.reg_agreement a span{color:#f08c48;}
 
 
 

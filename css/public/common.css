@@ -78,9 +78,6 @@
 .register_header{margin-top: 25px;}
 .register_header a{display: inline-block;float: left;}
 
-.register_bg{background: url(../../images/register/reg_bg_all.png) center 0 no-repeat #fc6d65;width: 100%;height: 550px;overflow: hidden;}
-.register_content{background: #fff;width: 345px;height: 435px;box-shadow: 0 0 10px #F94341;float: right;margin-top: 50px;}
-
 /**register footer**/
 .reg_footer{text-align: center;}
 .reg_footer .reg_header{padding:20px 0px 10px;margin-left: 350px;}
