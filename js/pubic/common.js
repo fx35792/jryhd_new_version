@@ -52,5 +52,20 @@ $(function(){
     	$(".back_hide").hide();
     });
 
+    //注册、登录页面输入框获得焦点，输入框框和投影的颜色变化
+    $(".input_focus").focus(function(){
+    	$(this).css({
+    		"border":"1px solid #f08f4b",
+    		"box-shadow":"0px 0px 1px #f08f4b"
+    	});
+    });
+    //注册、登录页面输入框失去焦点，输入框框和投影的颜色变化
+    $(".input_focus").blur(function(){
+    	$(this).css({
+    		"border":"1px solid #dcdcdc",
+    		"box-shadow":"0px 0px 1px #fff"
+    	});		
+    });
+
 
 });
