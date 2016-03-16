@@ -1,0 +1,85 @@
+body{background: #f8f8f8;}
+/**幻灯片**/
+#kinMaxShow{visibility:hidden;width:100%; height:355;overflow:hidden;}
+#kinMaxShow .KMSPrefix_kinMaxShow_button{-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;transition: all .3s ease;}
+#kinMaxShow .KMSPrefix_kinMaxShow_button:hover{ -webkit-transform: scale(1.1);-moz-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
+
+/**MM计划模块**/
+.floor{overflow: hidden;}
+.floor_h1{height: 518px;}
+.floor-header{height: 20px;line-height: 20px;font-size: 16px;color: #1b1a21;}
+.floor-header img{vertical-align: middle;}
+
+.floor-content-box{position: relative;top:32px;border-left: 0;}
+.fl-bg1{border:1px solid #ff464f;height: 446px ;background: #fff;}
+.floor-left{position: relative;top:-18px;left: -1px;}
+.mm_left_bg{background: url(../../images/wmanage/w_mm_left.png) no-repeat;width: 275px;height: 482px;top:-18px;}
+.fl-bg1-link{margin-top: 250px;}
+.fl-bg-link a{width: 100px;margin-left: 85px;display: block;width:90px;text-align:center;height: 28px;line-height: 28px;border:1px solid #fff;color: #fff;margin-bottom: 10px;font-size: 14px;letter-spacing: 1px;}
+.fl-bg-link a:hover{background: #fff;color: #ff8e43;}
+
+.floor-right{padding: 10px 18px 0px 18px;width: 885px;position: relative;}
+.wealth-fir{border-bottom: 1px dashed  #d2d2d2;overflow: hidden;padding-bottom: 10px;}
+
+.wealth-fir-left{position: relative;width: 420px;border-right:1px dashed  #d2d2d2;height: 202px;margin-right: 30px;}
+.common_content .p-name{font-size: 16px;color: #2e2e2e;line-height: 30px;font-weight: bold;}
+.common_content .p-name a{font-size: 18px;color: #2e2e2e;line-height: 30px;}
+.common_content .p-name i{background: url(../../images/wmanage/wealth_ico.png) 0px -25px no-repeat;width: 20px;height: 26px;display: inline-block;margin:-4px 5px;}
+.common_content .p-name em{font-weight: normal;font-size: 12px;color: #acacac;}
+.common_content .p-title{font-weight: normal;font-size: 12px;color: #acacac;line-height: 25px;white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.common_content .p-tips{margin-top: 10px;}
+.common_content .p-tips span{width: 70px;text-align: center;height: 20px;line-height: 20px;border:1px solid #ff8838;display: inline-block;margin-right: 10px;color: #ff8838;font-size: 14px;}
+.common_content .p-profit{margin-top: 10px;font-size: 14px;color: #2e2e2e;}
+.common_content .p-profit span{font-size: 24px;color: #ff8330;}
+.common_content .p-profit span em{font-size: 14px;}
+.common_content .p-extra{font-size: 14px;color: #acacac;line-height: 15px;margin-top: 15px;}
+.wealth-fir-left .p-btn a{position: absolute;top: 145px;left: 0px;display: block;background: #ff8839; width:110px;text-align: center;height: 40px;line-height: 40px;right: 10px;font-size: 16px;color: #fff;border-radius: 3px;letter-spacing: 1px;}
+.wealth-sec-left .p-btn a{position: absolute;bottom: 10px;left: 160px; display: block;background: #ff8839; width:110px;text-align: center;height: 40px;line-height: 40px;right: 10px;font-size: 16px;color: #fff;border-radius: 3px;letter-spacing: 1px;}
+.common_content .p-btn a:hover{background: #e87e34}
+.wealth-sec{padding:10px  0px 0px;}
+.wealth-sec-left{position: relative;padding-right: 3px;width: 288px;padding-left: 15px;border-right: 1px solid #e8e8e8;height: 177px;}
+.mm_bg{position: relative;left: -10px;top:15px;}
+.mr15{margin-right: 15px;}
+
+/**PP宝模块**/
+.floor_h2{height: 296px;}
+.ppb_left_bg{background: url(../../images/wmanage/w_ppb_left.png) no-repeat;width: 275px;height: 259px;top:-16px;}
+.fl-bg2{border:1px solid #68c1ff;height: 227px ;background: #fff;}
+.ppb-fir-left{position: relative;width: 285px;border-right:1px dashed  #d2d2d2;height: 202px;margin-right: 30px;}
+.common_content .p-name i.ppb{    background: url(../../images/wmanage/wealth_ico.png) 0px 0px no-repeat;width: 25px;height: 29px;display: inline-block;margin: -12px 5px;}
+span.p-tips{width: 70px;text-align: center;height: 20px;line-height: 20px;border:1px solid #ff8838;display: inline-block;margin-right: 10px;color: #ff8838;font-size: 14px;font-weight: normal;}
+.ppb-fir{border-bottom: none;overflow: hidden;padding-bottom: 10px;}
+.p-profit-yes{font-size: 14px;color: #666;margin-top: 25px;}
+.p-interst{background: url(../../images/wmanage/sy_bg01.png) no-repeat;width: 197px;height: 60px;line-height: 60px;text-align: center;color:#fff;font-size: 40px;margin-top: 15px;}
+.p-interst em{font-size: 26px;}
+.ppb-sec-left{width: 250px;padding:10px 20px 10px 0px;border-right:1px dashed #d3d3d3;height: 185px;position: relative;}
+.ppb-sec-left p{line-height: 40px;font-size: 14px;color: #acacac;width: 180px;}
+.ppb-sec-left p i{float: left;width: 25px;height: 30px;display: inline-block;padding-right: 5px;}
+.ppb-sec-left p i.ico1{background: url(../../images/wmanage/wealth_ico.png) -37px 10px no-repeat;}
+.ppb-sec-left p i.ico2{background: url(../../images/wmanage/wealth_ico.png) -37px -24px no-repeat;}
+.ppb-sec-left p i.ico3{background: url(../../images/wmanage/wealth_ico.png) -75px 10px no-repeat;}
+.ppb-sec-left p span{float: left;}
+.ppb-sec-left .p-btn a{position: absolute;top: 145px;left: 125px;display: block;background: #ff8839; width:110px;text-align: center;height: 40px;line-height: 40px;right: 10px;font-size: 16px;color: #fff;border-radius: 3px;letter-spacing: 1px;}
+.p-interst-2{background: url(../../images/wmanage/sy_bg02.png) no-repeat;width: 138px;height: 60px;line-height: 60px;text-align: center;color:#fff;font-size: 40px;margin-top: 15px;}
+
+/**天天理财模块**/
+.floor_h3{height: 296px;margin-bottom: 20px;}
+.daily_left_bg{background: url(../../images/wmanage/w_tt_left.png) no-repeat;width: 275px;height: 259px;top:-15px;}
+.fl-bg3{border:1px solid #ff9148;height: 227px ;background: #fff;}
+.tt-sec-left{width: 250px;padding:10px 20px 10px 0px;border-right:1px dashed #d3d3d3;height: 185px;position: relative;}
+.p-times{font-size: 14px;color: #9a9a9a;line-height: 35px;}
+.p-times b{color:#ff9148;}
+.tt-sec-left p{font-size: 14px;color: #acacac;width: 240px;line-height: 40px;}
+.tt-sec-left p i{float: left;width: 25px;height: 30px;display: inline-block;padding-right: 5px;}
+.tt-sec-left p i.ico4{background: url(../../images/wmanage/wealth_ico.png) -75px 10px no-repeat;}
+.tt-sec-left p i.ico5{background: url(../../images/wmanage/wealth_ico.png) -76px -21px no-repeat;}
+.tt-sec-left p i.ico6{background: url(../../images/wmanage/wealth_ico.png) -75px -48px no-repeat;}
+.tt-sec-left p span{float: right;width: 210px;text-align: justify;}
+.tt-sec-left .p-btn a{position: absolute;top: 145px;left: 125px;display: block;background: #ff8839; width:110px;text-align: center;height: 40px;line-height: 40px;right: 10px;font-size: 16px;color: #fff;border-radius: 3px;letter-spacing: 1px;}
+
+.circliful {position: absolute;top: 55px;left: 290px;}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {width: 100%;position: absolute;text-align: center;display: inline-block;color:#ef5a50;}
+.circle-info, .circle-info-half {color: #999;}
+.circliful .fa {margin: -10px 3px 0 3px;position: relative;bottom: 4px;}
+
+

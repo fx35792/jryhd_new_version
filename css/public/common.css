@@ -87,6 +87,13 @@
 .reg_footer p a{color:#999;}
 .reg_footer p a:hover{color: #fc6d65;text-decoration: underline;}
 
+/**鼠标划上内容整体向左偏移10px**/
+.common_content{-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;transition: all .3s ease;}
+.common_content:hover{padding-left: 10px;}
+.common_content1:hover{padding-left: 5px;}
+/**鼠标划上去图片缩放**/
+.animate_img{position:relative;-moz-transition: all .3s ease;-o-transition: all .3s ease;-webkit-transition: all .3s ease;transition: all .3s ease;}
+.animate_img:hover{-webkit-transform: scale3d(.98,.98,1);-moz-transform: scale3d(.98,.98,1);-ms-transform: scale3d(.98,.98,1);transform: scale3d(.98,.98,1);}
 
 
 
