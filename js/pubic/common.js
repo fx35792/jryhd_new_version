@@ -19,16 +19,6 @@ $(function(){
 		$(this).children('.dropbox').hide();
 	});
 
-    $(".nav-item").mouseenter(function() {
-       var index = $(this).index();
-       $(".nav-item-m").removeClass('current');
-       $('#nav_move_current').stop().animate({
-            left:$(".nav-item").eq(index).position()['left']
-        },200);/**/
-        $(".nav-item-m").eq(index).addClass("current").stop().fadeTo(1000,1);
-
-    });
-
 	//导航跟着屏幕滚动效果
 	$(window).scroll(function() {
 		var scroll_target = $(this).scrollTop();
