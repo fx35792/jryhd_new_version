@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>金融一号店-开借</title>
+	<!--public-->
+	<link rel="stylesheet" type="text/css" href="css/public/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/public/common.css">
+	<link rel="stylesheet" type="text/css" href="css/public/animate.css">
+	<script type="text/javascript" src="js/pubic/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/pubic/common.js"></script>
+	<script type="text/javascript" src="js/pubic/jquery.kinMaxShow-1.1.min.js" ></script>
+	<script type="text/javascript" src="js/pubic/timeCountDown2.js"></script>
+	<!--kloans-->
+	<link rel="stylesheet" type="text/css" href="css/kloans/kloans.css">	
+	<script type="text/javascript" src="js/kloans/kloans.js"></script>
+</head>
+<body>	
+	<div class="header">
+		<div class="header_wrap w_common clearfix">
+			<div class="h_left left">
+				<span>Hi,金融1号店欢迎您!</span>
+				<i>客服电话:400-6608-571<b>&nbsp;(9:00-18:00)</b></i>
+			</div>
+			<div class="h_right right">
+				<a href="" target="_blank" class="login left">您好，请登录 </a>
+				<a href="" target="_blank" class="reg left">注册</a>
+				<a href="" target="_blank" class="new left">新手指引</a>
+				<div id="qq_qun" class="left">
+					<span class="qq">加入QQ群</span>
+					<div class="qun_content" style="display:none">
+						<div class="arrow_up_k">
+							<span class="arrow_up"></span>
+						</div>
+						<ul>
+							<li><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=95578d53030113363c0fcb95a60911b443fdf49a0b10b7b96860b9f632a9c02c" class="qq" target="_blank">【投资交流】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4d5fb95590a8279dcaea3fe601dda7d36dd959e1a8bb34f6d01d7e2ed1187b6c" class="qq" target="_blank">【肆群】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4dbad2f9e4a903e993f676004feaee51b11fc24801176228d7ecd600b74d7a06" class="qq" target="_blank">【叁群(已满)】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=724d8ba6bf95e71ef7d68ab7dd3cefe0010da511f78648d3a84b82e081068855" class="qq" target="_blank">【贰群(已满)】 </a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=204017f68d8978bcde48cdba53fc78e8d4838111f297823f2a5e449be150c744" class="qq" target="_blank">【壹群(已满)】</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sina_wechat left">
+					<span class="left">关注</span>
+					<a href="" target="_blank" class="sina left">
+						<img src="images/pubic/h_sina.png" height="22" width="22">
+					</a>
+					<a href="javascript:;"  class="wechat left" id="wechat_ewm">
+						<img src="images/pubic/h_wechat.png" height="22" width="22">
+						<div class="h_erweima" style="display:none">
+							<div class="arrow_up_k" style="top: -16px;">
+								<span class="arrow_up"></span>
+							</div>
+							<p>
+								<img src="images/pubic/h_erweima.png" width="73" height="73">
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="h_app left">
+					<a href="" target="_blank">
+						<img src="images/pubic/h_app.png" height="23" width="100">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="navigation">
+		<div class="w_common navigation_wrap clearfix">
+			<div class="nav_left left">
+				<img src="images/pubic/logo.png" height="59" width="234">
+			</div>
+			<div class="nav_left1 left">
+				<ul class="nav-box left clearfix">
+					<li class="nav-item">
+						<a href="">首页</a>
+					</li>
+					<li class="nav-item">
+						<a href="">财富管理</a>
+						<ul class="dropbox">
+							<li><a href="">PP宝</a></li>
+							<li><a href="">MM计划</a></li>
+							<li><a href="">天天理财</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">商城</a>
+					</li>
+					<li class="nav-item">
+						<a href="">贷款</a>
+						<ul class="dropbox">
+							<li><a href="">开借</a></li>
+							<li><a href="">房产抵押</a></li>
+							<li><a href="">新三板咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">邮币卡</a>
+					</li>
+					<li class="nav-item">
+					    <a href="">企业服务</a>
+					    <ul class="dropbox">
+							<li><a href="">股权质押</a></li>
+							<li><a href="">信用贷款</a></li>
+							<li><a href="">过桥垫资</a></li>
+							<li><a href="">企业咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+					    <a href="">金融论坛</a>
+					</li>
+				</ul>
+			</div>	
+			<div class="nav_right right">
+				<a href="">
+					个人中心
+				</a>
+			</div>
+		</div>		
+	</div>
+	<!--面包屑-->
+	<div class="house_wrap">
+		<div class="w_common">
+			<a href="">首页</a>&gt;<a href="">贷款</a>&gt;<a href="javascript:;">开借</a>
+		</div>		
+	</div>
+
+	<!--开借 header-->
+	<div class="kj_header">
+		<div class="w_common">
+			<p>
+				 开借是一款针对个人消费者推出的无抵押无担保的小额 信用贷款，致力于为广大
+				消费者提供简单便捷的分期服务，减少现金压力。开借全程线上申请，快速审核，
+				方便快捷。选择开借，选择更好的生活品质.
+			</p>
+			<a href="">立即申请</a>
+			<div class="kj_header_ico">
+				<img src="images/kloans/kj_p1_ico1.png" height="119" width="100">
+				<img src="images/kloans/kj_p1_ico2.png" height="119" width="100">
+				<img src="images/kloans/kj_p1_ico3.png" height="119" width="118">
+				<img src="images/kloans/kj_p1_ico4.png" height="119" width="100">
+			</div>
+		</div>
+	</div>
+
+	<!--开借上手五步走-->
+	<div class="kj_part1 w_common">
+		<div class="kj_part1_head">
+			<img src="images/kloans/kj_header1.png" height="29" width="561">
+		</div>
+		<div class="circle_fgx"></div>
+		<div class="kj_part1_content">
+			<img src="images/kloans/kj_p2_ico1.png" height="143" width="332" class="kj_p2_ico1">
+			<img src="images/kloans/kj_p2_ico2.png" height="143" width="332" class="kj_p2_ico2">
+			<img src="images/kloans/kj_p2_ico3.png" height="143" width="332" class="kj_p2_ico3">
+			<img src="images/kloans/kj_p2_ico4.png" height="143" width="332" class="kj_p2_ico4">
+			<img src="images/kloans/kj_p2_ico5.png" height="143" width="332" class="kj_p2_ico5">
+		</div>
+	</div>
+	
+	<!--家装分期-->
+	<div class="kj_part2_head">
+		<div class="w_common">
+			<img src="images/kloans/kj_header2.png" height="31" width="594">
+		</div>			
+	</div>
+	<div class="kj_part2_content">
+		<div class="w_common">
+			<img src="images/kloans/kj_header3.png" height="31" width="817" class="kj_header2">
+			<div class="kj_circle">
+				<img src="images/kloans/kj_p4_ico1.png" height="120" width="244" class="kj_p4_ico1">
+				<img src="images/kloans/kj_p4_ico2.png" height="120" width="279" class="kj_p4_ico2">
+				<img src="images/kloans/kj_p4_ico3.png" height="120" width="325" class="kj_p4_ico3">
+				<img src="images/kloans/kj_p4_ico4.png" height="120" width="296" class="kj_p4_ico4">
+				<img src="images/kloans/kj_p4_center.png" height="191" width="191" class="kj_p4_center">
+			</div>
+			
+			<a href="">立即申请</a>
+		</div>		
+	</div>
+
+	<!--家具分期-->
+	<div class="kj_part3 w_common">
+		<div class="kj_part3_head">
+			<img src="images/kloans/kj_header4.png" height="31" width="613">
+		</div>
+		<div class="kj_part3_content clearfix">
+			<div class="kj_part3_item">
+				<img src="images/kloans/kj_p3_ico1.png" height="306" width="346">
+			</div>
+			<div class="kj_part3_item">
+				<img src="images/kloans/kj_p3_ico2.png" height="306" width="346">
+			</div>
+			<div class="kj_part3_item" style="margin-right:0;">
+				<img src="images/kloans/kj_p3_ico3.png" height="306" width="346">
+			</div>
+		</div>
+		<h2>
+			购买宜华家具     享受开借分期
+		</h2>
+	</div>
+
+	<!--footer-->
+	<div class="footer">
+		<div class="f_part1">
+			<div class="w_common f_part clearfix">
+				<div class="f_part1_l left">
+					<ul>
+						<li><a href=""  target="_blank">公司介绍</a></li>
+						<li><a href=""  target="_blank">管理团队</a></li>
+						<li><a href=""  target="_blank">股东介绍</a></li>
+						<li><a href=""  target="_blank">合作伙伴</a></li>
+						<li><a href=""  target="_blank">加入我们</a></li>
+						<li><a href=""  target="_blank">联系我们</a></li>
+					</ul>
+					<h2>COPYRIGHT 2013-2015 JR1.CN All Rights Reserved</h2>
+					<h2>北京投融有道科技有限公司  版权所有</h2>
+					<h2>
+						<a href="http://www.miibeian.gov.cn" title="京ICP备13045972号" target="_blank">京ICP备13045972号</a> 
+						<a href="http://www.bjgaj.gov.cn/" title="京公网安备11010802013140号" target="_blank">京公网安备11010802013140号</a>
+					</h2>
+				</div>
+				<div class="f_part1_r right">
+					<img src="images/pubic/f_phone.png" height="31" width="287" class="f_phone" alt="f_phone">
+					<div class="f_erweima">
+						<img src="images/pubic/f_jr1.png" height="88" width="88" title="金融一号店" alt="金融一号店">
+						<img src="images/pubic/f_tt.png" height="87" width="87" title="天天钱包" alt="天天钱包">
+						<img src="images/pubic/f_app.png" height="87" width="87" title="app下载" alt="app下载">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f_part2">
+			<div class="w_common clearfix">
+				<a href="http://zhanzhang.anquan.org/physical/report/?domain=www.jr1.cn" title="安全联盟站长平台" target="_blank">
+					<img src="images/pubic/f_zs1.png" height="32" width="89" alt="安全联盟站长平台">
+				</a>
+	            <a href="http://www.cneca.org/checkshow.php?danganhao=CX2014726110944" title="诚信网站" target="_blank">
+	            	<img src="images/pubic/f_zs2.png" alt="诚信网站">
+	            </a>
+	            <a href="http://www.miitbeian.gov.cn" title="工信部网站条案系统" target="_blank">
+	            	<img src="images/pubic/f_zs3.png" alt="工信部网站条案系统">
+	            </a>
+	            <a href="http://webscan.360.cn/index/checkwebsite?url=www.jr1.cn" title="360网站安全检测" target="_blank">
+	            	<img src="images/pubic/f_zs4.png" alt="360网站安全检测">
+	            </a>
+			</div>
+		</div>
+	</div>
+
+	<!--返回顶部-->
+	<div id="returnback">
+		<div class="back_show">			
+			<a href="" class="back_show_back">
+				<img src="images/pubic/return_01.png" height="71" width="75">
+			</a>
+			<a href="javascript:;">
+				<img src="images/pubic/return_03.png" height="50" width="75">
+			</a>
+		</div>
+		<div class="back_hide" style="display:none">
+			<a href="" class="back_show_back">返回顶部</a>
+			<a href="javascript:;">意见反馈</a>
+		</div>		
+	</div>
+</body>
+</html>

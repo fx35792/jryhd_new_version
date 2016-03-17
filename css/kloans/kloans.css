@@ -1,0 +1,52 @@
+/**面包屑**/
+.house_wrap {height: 40px;line-height: 40px;border-top:1px solid #e7e7e7;width:100%;font-size: 14px;}
+.house_wrap a{color:#3e485b;}
+
+/**开借 header**/
+.kj_header{background: url(../../images/kloans/kj_bg1.png) center center no-repeat;width:100%;height: 642px;overflow: hidden;}
+.kj_header p{padding-top:150px;width: 630px;text-align: justify; font-size: 16px;color:#fff;line-height: 30px;margin-left: 280px;}
+.kj_header a{display: inline-block;margin-top:80px;width: 395px;margin-left: 400px;height: 85px;text-align: center;line-height: 85px;color:#fff;font-size: 36px;border:1px solid #fff;border-radius: 10px;background:rgba(255,255,255,0.1); }
+.kj_header a:hover{background:rgba(255,255,255,0.2);}
+.kj_header img{margin-left: 150px;top:0;padding-top: 50px;position: relative;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;transition: all .3s ease;}
+.kj_header img:hover{top:-10px;}
+
+/**开借 上手五步走**/
+.kj_part1{background: #fff;height: 680px;}
+.kj_part1_head{text-align: center;padding-top: 50px;}
+.kj_part1_content{margin-top: 45px;}
+.circle_fgx{background: url(../../images/kloans/circle_fgx.png) no-repeat;position: absolute;left: 50%;width:395px;height: 568px;margin-left:-198px;margin-top:30px; }
+.kj_part1_content img{position: relative;}
+.kj_p2_ico1{top:0px;left:-3px;}
+.kj_p2_ico2{top: 100px;left: 540px;}
+.kj_p2_ico3{top: 200px;left: -675px;}
+.kj_p2_ico4{top: 150px;left: 870px;}
+.kj_p2_ico5{top: 250px;left: -340px;}
+
+/**家装分期1**/
+.kj_part2_head{text-align: center;padding-top: 50px;padding-bottom: 40px;}
+.kj_part1_content{margin-top: 45px;}
+.kj_part2_content{background: url(../../images/kloans/kj_bg2.png) center no-repeat;width:100%;height: 700px;}
+.kj_header2{position: relative;padding-top:10px;margin-left: 200px;top:0;}
+.kj_circle{position: relative;}
+.kj_circle img{position: relative;}
+.kj_p4_ico1{top: 332px;left: 124px}
+.kj_p4_ico2{top: 79px;left: -42px;}
+.kj_p4_ico3{top: 79px;left: 185px;}
+.kj_p4_ico4{top: 332px;left: -25px}
+.kj_p4_center{top: 165px;left: 503px;cursor: pointer;}
+.kj_part2_content a{display: inline-block;margin-top:185px;width: 395px;margin-left: 400px;height: 85px;text-align: center;line-height: 85px;color:#fff;font-size: 36px;border:1px solid #fff;border-radius: 10px;background:rgba(255,255,255,0.1); }
+.kj_part2_content a:hover{background:rgba(255,255,255,0.2);}
+
+/**家具分期2**/
+.kj_part3{background: #fff;height: 650px;}
+.kj_part3_head{text-align: center;padding-top: 50px;padding-bottom: 40px;}
+.kj_part3_content{margin-top: 45px;}
+.kj_part3_item{background: #ef833c;width: 377px;height: 335px;float: left;margin-right: 34px;}
+.kj_part3_item img{margin:15px;position:relative;-moz-transition: all .3s ease;-o-transition: all .3s ease;-webkit-transition: all .3s ease;transition: all .3s ease;}
+.kj_part3_item:hover img{-moz-tranform:scale3d(.96,.96,1);-o-transform:scale3d(.96,.96,1);-webkit-transform:scale3d(.96,.96,1);transform:scale3d(.96,.96,1);} 
+.kj_part3 h2{text-align: center;font-size: 36px;color:#ef833c;margin-top:45px;}
+
+
+
+
+
