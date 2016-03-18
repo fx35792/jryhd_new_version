@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>金融一号店-房产抵押贷款</title>
+	<!--public-->
+	<link rel="stylesheet" type="text/css" href="css/public/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/public/common.css">
+	<link rel="stylesheet" type="text/css" href="css/public/animate.css">
+	<script type="text/javascript" src="js/pubic/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/pubic/common.js"></script>
+	<script type="text/javascript" src="js/pubic/jquery.kinMaxShow-1.1.min.js" ></script>
+	<script type="text/javascript" src="js/pubic/timeCountDown2.js"></script>
+	<!--index-->
+	<link rel="stylesheet" type="text/css" href="css/newthree/newthree.css">	
+	<script type="text/javascript" src="js/newthree/newthree.js"></script>
+</head>
+<body>	
+	<div class="header">
+		<div class="header_wrap w_common clearfix">
+			<div class="h_left left">
+				<span>Hi,金融1号店欢迎您!</span>
+				<i>客服电话:400-6608-571<b>&nbsp;(9:00-18:00)</b></i>
+			</div>
+			<div class="h_right right">
+				<a href="" target="_blank" class="login left">您好，请登录 </a>
+				<a href="" target="_blank" class="reg left">注册</a>
+				<a href="" target="_blank" class="new left">新手指引</a>
+				<div id="qq_qun" class="left">
+					<span class="qq">加入QQ群</span>
+					<div class="qun_content" style="display:none">
+						<div class="arrow_up_k">
+							<span class="arrow_up"></span>
+						</div>
+						<ul>
+							<li><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=95578d53030113363c0fcb95a60911b443fdf49a0b10b7b96860b9f632a9c02c" class="qq" target="_blank">【投资交流】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4d5fb95590a8279dcaea3fe601dda7d36dd959e1a8bb34f6d01d7e2ed1187b6c" class="qq" target="_blank">【肆群】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4dbad2f9e4a903e993f676004feaee51b11fc24801176228d7ecd600b74d7a06" class="qq" target="_blank">【叁群(已满)】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=724d8ba6bf95e71ef7d68ab7dd3cefe0010da511f78648d3a84b82e081068855" class="qq" target="_blank">【贰群(已满)】 </a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=204017f68d8978bcde48cdba53fc78e8d4838111f297823f2a5e449be150c744" class="qq" target="_blank">【壹群(已满)】</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sina_wechat left">
+					<span class="left">关注</span>
+					<a href="" target="_blank" class="sina left">
+						<img src="images/pubic/h_sina.png" height="22" width="22">
+					</a>
+					<a href="javascript:;"  class="wechat left" id="wechat_ewm">
+						<img src="images/pubic/h_wechat.png" height="22" width="22">
+						<div class="h_erweima" style="display:none">
+							<div class="arrow_up_k" style="top: -16px;">
+								<span class="arrow_up"></span>
+							</div>
+							<p>
+								<img src="images/pubic/h_erweima.png" width="73" height="73">
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="h_app left">
+					<a href="" target="_blank">
+						<img src="images/pubic/h_app.png" height="23" width="100">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="navigation">
+		<div class="w_common navigation_wrap clearfix">
+			<div class="nav_left left">
+				<img src="images/pubic/logo.png" height="59" width="234">
+			</div>
+			<div class="nav_left1 left">
+				<ul class="nav-box left clearfix">
+					<li class="nav-item">
+						<a href="">首页</a>
+					</li>
+					<li class="nav-item">
+						<a href="">财富管理</a>
+						<ul class="dropbox">
+							<li><a href="">PP宝</a></li>
+							<li><a href="">MM计划</a></li>
+							<li><a href="">天天理财</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">商城</a>
+					</li>
+					<li class="nav-item">
+						<a href="">贷款</a>
+						<ul class="dropbox">
+							<li><a href="">开借</a></li>
+							<li><a href="">房产抵押</a></li>
+							<li><a href="">新三板咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">邮币卡</a>
+					</li>
+					<li class="nav-item">
+					    <a href="">企业服务</a>
+					    <ul class="dropbox">
+							<li><a href="">股权质押</a></li>
+							<li><a href="">信用贷款</a></li>
+							<li><a href="">过桥垫资</a></li>
+							<li><a href="">企业咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+					    <a href="">金融论坛</a>
+					</li>
+				</ul>
+			</div>	
+			<div class="nav_right right">
+				<a href="">
+					个人中心
+				</a>
+			</div>
+		</div>		
+	</div>
+	<!--面包屑-->
+	<div class="house_wrap">
+		<div class="w_common">
+			<a href="">首页</a>&gt;<a href="">贷款</a>&gt;<a href="javascript:;">新三板开户咨询</a>
+		</div>		
+	</div>
+
+	<!--新三板开户咨询 header-->
+	<div class="newthree_header">
+		<div class="w_common">
+			<h2>新三板开户咨询</h2>
+			<a href="">立即申请</a>
+		</div>
+	</div>
+
+	<!--什么是新三板开户？-->
+	<div class="newthree_part1 w_common">
+		<div class="newthree_part1_content clearfix">
+			<div class="n_part1_left left">
+				<img src="images/newthree/new_p1_ico1.png" height="383" width="433">
+			</div>
+			<div class="n_part1_right left">
+				<h2>什么是新三板开户？</h2>
+				<p>“新三板”市场原指中关村科技园区非上市股份有限公司进入代办股份系统进行转让试点，因为挂牌企业均为高科技企业而不同于原转让系统内的退市企业及原STAQ、NET系统挂牌公司，故形象地称为“新三板”。</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--上市条件-->
+	<div class="newthree_condition">
+		<div class="w_common">
+			<h2>上市条件</h2>
+			<img src="images/newthree/new_three_bg3.png" height="343" width="860">
+		</div>		
+	</div>
+	
+	<!--新三板开户条件-->
+	<div class="newthree_part2 w_common">
+		<h2>新三板开户条件</h2>
+		<div class="newthree_part2_content clearfix">
+			<div class="n_part2_left left">
+				<img src="images/newthree/new_p2_ico1.png" height="263" width="146" class="new_p2_ico1 left">
+				<div class="pro_font">
+					<h3>机构投资者</h3>
+					<div class="common_content">
+						<div class="pro_cont clearfix">
+							<i class="left"></i>
+							<p>注册资本500万元人民币以上的法人结构</p>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="pro_cont clearfix">
+							<i class="left"></i>
+							<p>实缴出资金额500万元人民币以上的合伙企业</p>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="n_part2_right">
+				<img src="images/newthree/new_p2_ico2.png" height="269" width="146" class="new_p2_ico2 left">
+				<div class="pro_font pro_font2">
+					<h3>自然人投资者</h3>
+					<div class="common_content">
+						<div class="pro_cont pro_cont2 clearfix">
+							<i class="left" style="height: 41px"></i>
+							<p>投资者本人名下前一交易日日终证券类资产市值500万元人民币以上。证券类资产包括客户结算资金、股票、基金、债券、券商集合理财产品等，信誉证券账户资产除外。</p>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="pro_cont pro_cont2 clearfix">
+							<i class="left"></i>
+							<p>具有两年以上证券投资经验，或具有会计、金融、投资、财经等相关专业背景或培训经历。</p>
+						</div>
+					</div>	
+					<div class="common_content">
+						<div class="pro_cont pro_cont2 clearfix">
+							<i class="left"></i>
+							<p>投资经验的起算时点位投资者本人名下账户的全国股份转让系统、上海证券交易所或深圳证券交易所发生首笔股票交易之日。</p>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!--新三板交易规则-->
+	<div class="newthree_part3">
+		<div class="w_common">
+			<div class="newthree_part3_head">
+				<img src="images/newthree/new_three_header1.png" height="27" width="542">
+			</div>
+			<div class="newthree_part3_content">
+				<div class="yw_ico">
+					<h3>1</h3>
+					<p>转让时间 每周一至周五9:15-11:30,13:00-15:00，转让时间内因故停市，转让时间不作顺延，遇法定节日和全国股份转让系统公司公告的休市日，全国股份转让系统休市。</p>
+				</div>
+				<div class="yw_ico">
+					<h3>2</h3>
+					<p>买卖股票的申报数量买卖股票的申报数量应当为1000股或其整数倍；卖出股票时，余额不足1000股部分，应当一次性申报卖出。 股票转让单笔申报最大数量不得超过100万股。</p>
+				</div>
+				<div class="yw_ico">
+					<h3>3</h3>
+					<p>股价变动单位 股票转让的计价单位为“每股价格”；转让申报价格最小变动单位为0.01元人民币。</p>
+				</div>
+				<div class="yw_ico" style="margin-right:0px;">
+					<h3>4</h3>
+					<p class="many">有效报价区间 开盘集合竞价的申报有效价格区间为前收盘价的上下20%以内；连续竞价、收盘集合竞价的申报有效价格区间为最近成交价的上下20%以内；当日无成交的，申报有效价格区间为前收盘价的上下20%以内。 当成
+交价波动使其进入有效价格区间时，交易主机自动取出申报，参加竞价。</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!--新三板开户流程-->
+	<div class="newthree_part4 w_common">
+		<div class="newthree_part4_head">
+			<img src="images/newthree/new_three_header2.png" height="27" width="542">
+		</div>
+		<div class="newthree_part4_content clearfix">
+			<img src="images/newthree/new_p4_ico1.png" height="284" width="298" class="new_p4_ico1">
+			<img src="images/newthree/new_p4_ico2.png" height="284" width="298" class="new_p4_ico1">
+			<img src="images/newthree/new_p4_ico3.png" height="284" width="298" class="new_p4_ico1">
+			<img src="images/newthree/new_p4_ico4.png" height="284" width="298" class="new_p4_ico1">
+		</div>
+	</div>
+
+	<!--新三板开户优点-->
+	<div class="house_part5">
+		<div class="w_common">
+			<div class="house_part5_head">
+				<img src="images/newthree/new_three_header3.png" height="27" width="542">
+			</div>
+			<div class="house_part5_content clearfix">
+				<div class="house_part5_left left">
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="images/newthree/new_p5_ico1.png" height="60" width="57">
+							</span>
+							<div class="content left">
+								<h2>便捷</h2>
+								<p>
+									开立新三板账户相关客服全程陪同，享受证券<br/>
+									本或缴纳0.5%公司VIP通道，客户省心省力
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="images/newthree/new_p5_ico2.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>快捷</h2>
+								<p>
+									办理时间短，前后2个工作日即可验资交接账户
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="images/newthree/new_p5_ico3.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>专业</h2>
+								<p>
+									既专业又优质的管理团队
+								</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="house_part3_right left">
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="images/newthree/new_p5_ico4.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>灵活</h2>
+								<p>
+									全额或部分垫资
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="images/newthree/new_p5_ico5.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>安全</h2>
+								<p>
+									仅收取部分服务费，无需保证，本人亲自到场，安全无风险
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="images/newthree/new_p5_ico6.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>多金</h2>
+								<p>
+									高优质的股东，合作伙伴
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+
+	<!--footer-->
+	<div class="footer">
+		<div class="f_part1">
+			<div class="w_common f_part clearfix">
+				<div class="f_part1_l left">
+					<ul>
+						<li><a href=""  target="_blank">公司介绍</a></li>
+						<li><a href=""  target="_blank">管理团队</a></li>
+						<li><a href=""  target="_blank">股东介绍</a></li>
+						<li><a href=""  target="_blank">合作伙伴</a></li>
+						<li><a href=""  target="_blank">加入我们</a></li>
+						<li><a href=""  target="_blank">联系我们</a></li>
+					</ul>
+					<h2>COPYRIGHT 2013-2015 JR1.CN All Rights Reserved</h2>
+					<h2>北京投融有道科技有限公司  版权所有</h2>
+					<h2>
+						<a href="http://www.miibeian.gov.cn" title="京ICP备13045972号" target="_blank">京ICP备13045972号</a> 
+						<a href="http://www.bjgaj.gov.cn/" title="京公网安备11010802013140号" target="_blank">京公网安备11010802013140号</a>
+					</h2>
+				</div>
+				<div class="f_part1_r right">
+					<img src="images/pubic/f_phone.png" height="31" width="287" class="f_phone" alt="f_phone">
+					<div class="f_erweima">
+						<img src="images/pubic/f_jr1.png" height="88" width="88" title="金融一号店" alt="金融一号店">
+						<img src="images/pubic/f_tt.png" height="87" width="87" title="天天钱包" alt="天天钱包">
+						<img src="images/pubic/f_app.png" height="87" width="87" title="app下载" alt="app下载">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f_part2">
+			<div class="w_common clearfix">
+				<a href="http://zhanzhang.anquan.org/physical/report/?domain=www.jr1.cn" title="安全联盟站长平台" target="_blank">
+					<img src="images/pubic/f_zs1.png" height="32" width="89" alt="安全联盟站长平台">
+				</a>
+	            <a href="http://www.cneca.org/checkshow.php?danganhao=CX2014726110944" title="诚信网站" target="_blank">
+	            	<img src="images/pubic/f_zs2.png" alt="诚信网站">
+	            </a>
+	            <a href="http://www.miitbeian.gov.cn" title="工信部网站条案系统" target="_blank">
+	            	<img src="images/pubic/f_zs3.png" alt="工信部网站条案系统">
+	            </a>
+	            <a href="http://webscan.360.cn/index/checkwebsite?url=www.jr1.cn" title="360网站安全检测" target="_blank">
+	            	<img src="images/pubic/f_zs4.png" alt="360网站安全检测">
+	            </a>
+			</div>
+		</div>
+	</div>
+
+	<!--返回顶部-->
+	<div id="returnback">
+		<div class="back_show">			
+			<a href="" class="back_show_back">
+				<img src="images/pubic/return_01.png" height="71" width="75">
+			</a>
+			<a href="javascript:;">
+				<img src="images/pubic/return_03.png" height="50" width="75">
+			</a>
+		</div>
+		<div class="back_hide" style="display:none">
+			<a href="" class="back_show_back">返回顶部</a>
+			<a href="javascript:;">意见反馈</a>
+		</div>		
+	</div>
+</body>
+</html>
