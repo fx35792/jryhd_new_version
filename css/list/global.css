@@ -1,0 +1,87 @@
+.nav{width:100%;height:40px;border-top:1px solid #E7E7E7;line-height:40px;font-size:14px;}
+.grid-1200{width:1200px;overflow:hidden;margin:0 auto;position:relative;z-index:99;}
+.grid-1200 .crumbs{float:left;line-height:40px;}
+.crumbs a{color: #3e485b;}
+.grid-1200 .hands{float:right;}
+.hands a{display:inline-block;width:100px;height:25px;border: 1px solid #FF8536;text-align:center;line-height:25px;margin-top:5px;border-radius:15px;font-size:14px;color:#FF8536;}
+.hands a:hover{background:#FF8536;color:#fff;}
+.banner{width:100%;height:300px;background:url(../../images/list/banner.png)no-repeat;background-size:100% auto;}
+/*主体部分*/
+.content{width:100%;overflow:hidden;background:#f8f8f8;margin-top:15px;}
+/*tab导航切换*/
+.tab_list{width:100%;height:105px;}
+.tab_list .left{width:915px;height:105px;background: url(../../images/list/tab-bg.png)no-repeat;background-size:100% auto;}
+.tab_list .right{width:273px;height:105px;background:url(../../images/list/fund.png)no-repeat;background-size:100% auto;}
+.side{width:138px;height:105px;float:left;}
+.side p{width:100%;height:53px;line-height:53px;color:#FF8B41;text-align:center;font-size:16px;}
+.hand{width:777px;height:105px;float:left;font-size:14px;}
+.hand ul{width:100%;height:52px;float:left;}
+.hand .line1{border-bottom: 2px dotted #F1F1F1;position:relative;}
+.hand ul li{width:102px;height:25px;line-height:25px;text-align:center;float:left;margin-top:14px;margin-left:40px;}
+.hand ul li:hover{cursor:pointer;}
+.hand .line1 .current{width:102px;height:25px;line-height:25px;border-radius:20px;background:#FF8B41;color:#fff;}
+.hand .line2 .current{width:102px;height:25px;line-height:25px;border-radius:20px;background:#FF8B41;color:#fff;	}
+.line1 img{position:absolute;top:10px;right:70px;}
+/*MM计划*/
+.pledge{width:100%;overflow:hidden;margin-top:20px;}
+.max_left{width:918px;overflow:hidden;float:left;}
+.max_left .left{width:100%;height:195px;background:url(../../images/list/bg.png)no-repeat;background-size:100% auto;margin-bottom:15px;}
+.detail{width:635px;height:195px;float:left;}
+.detail .text{width:95%;height:75px;line-height:75px;font-size:16px;color:#7B7B7B;padding-left:5%;}
+.profit,.month{width:205px;height:70px;float:left;text-align:center;border-right:1px solid #EAEAEA;}
+.figure b{font-weight:normal;color:#FF8B42;font-size:36px;}
+.figure{width:100%;height:70px;text-align:center;}
+.figure .span1{font-size:24px;color:#ff8b42;}
+.figure .span2{display:inline-block;padding-top:15px;font-size:14px;}
+.month b{font-weight:normal;color:#FFCB00;font-size:36px;}
+.month .span1{font-size:24px;color:#FFCB00;}
+/*进度条*/
+.main{width:165px;height:70px;float:left;margin-left:20px;}
+.pro{width:100%;height:8px;margin-bottom:5px;background: #fff;border-radius:10px;overflow: hidden;border:1px solid #FF8583;}
+.pro_bg{background:#FF6D6A;height:8px;width:0;}
+.plan{width:100%;height:35px;}
+.plan b{font-weight:normal;color:#FF6663;font-size:28px;}
+.main_text{font-size:14px;padding-top:4px;}
+.money{width:280px;height:195px;float:left;}
+.invest1 img{position:absolute;top:122px;right:280px;z-index:100;}
+.invest2 img{position:absolute;top:332px;right:280px;z-index:100;}
+.invest3 img{position:absolute;top:542px;right:280px;z-index:100;}
+.invest4 img{position:absolute;top:752px;right:280px;z-index:100;}
+.invest5 img{position:absolute;top:962px;right:280px;z-index:100;}
+
+.invest{width:100%;height:49px;}
+.guimo{width:90%;margin-left:10%;line-height:30px;font-size:14px;}
+.guimo span{color:#FFA165;}
+.money .touzi{width:100%;height:45px;text-align:center;margin-top:15px;}
+.touzi a{display:inline-block;width:220px;height:45px;border-radius:3px;line-height:45px;font-size:15px;color:#fff;}
+.touzi .a1{background:#FF893E;}
+.touzi .a2{background:#D3D3D3;}
+.touzi .a1:hover{background:#E87C36;}
+
+/*中奖名单*/
+.pledge .right{background:url(../../images/list/bond.png)no-repeat right;width:273px;height:318px;float: right;}
+.winner-list a{display:block;}
+.winner-main{width:240px;height:290px;overflow:hidden;margin:0 auto;}
+.winner-main .list-cont{height:63px;}
+.list-cont .headProtrait,.list-cont .trophy{float: left;}
+.list-cont .headProtrait{height:50px;width:50px;margin:5px 5px;border:1px solid #ddd;}
+.list-cont .trophy{height:60px;width:172px;margin-left:5px;}
+.list-cont .trophy h4{height:20px;margin-top:15px;}
+.list-cont .trophy p{height:20px;margin-bottom:10px;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;}
+
+/*小图标*/
+.detail-ico{width:100%;height:47px;}
+.detail-ico ul{width:100%;height:47px;float:left;line-height:60px;}
+.detail-ico ul li{float:left;width:30%;height:47px;text-align:center;}
+.detail img{vertical-align:middle;}
+.detail-ico span{margin-left:5%;vertical-align:middle;}
+/*分页*/
+.contain_main{width:1200px;margin:0 auto;font-size:14px;}
+.contain_main .list{width:1200px;margin:0 auto;}
+.list .list_cont {width: 1198px;}
+.list .page {width: 100%;margin: 20px auto;text-align: center;}
+.list .page a.current {border-top:2px solid  #FF8B41;}
+.list .page span, .list .page a {display: inline-block;padding: 0 10px;margin-right: 5px;height: 25px;line-height: 25px;text-align: center;border: 1px solid #ccc;cursor: pointer;}
+/*敬请期待*/
+.plese{width:918px;height:317px;border:1px solid #E6E6E6;float:left;background:#fff;}
+.plese p{width:368px;height:172px;margin:70px auto;background:url(../../images/list/please.png)no-repeat;background-size: 100% 100%;}

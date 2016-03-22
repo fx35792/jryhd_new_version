@@ -1,0 +1,47 @@
+.nav{width:100%;height:40px;border-top:1px solid #E7E7E7;line-height:40px;font-size:15px;color: #59585C;}
+.grid-1200{width:1200px;overflow:hidden;margin:0 auto;}
+.grid-1200 .crumbs{float:left;}
+.grid-1200 .hands{float:right;}
+.hands a{display:inline-block;width:100px;height:25px;border: 1px solid #FF8536;text-align:center;line-height:25px;margin-top:5px;border-radius:15px;font-size:14px;color:#FF8536;}
+.hands a:hover{background:#FF8536;color:#fff;}
+/*banner图*/
+.banner{width:100%;height:622px;background:url(../../images/fortune/banner.png)no-repeat;background-size:100% auto;}
+.div1{width:175px;height:190px;float:left;margin-top:195px;margin-left:159px;position:relative;}
+.div1 img,.banner .div3 img{margin-top:25px;}
+.div2{width:545px;height:356px;float:left;text-align:center;margin-top:115px;position:relative;}
+.div3{width:175px;height:190px;float:left;margin-top:195px;margin-left:25px;position:relative;}
+.div1 .p1,.div3 .p1{position:absolute;top:67px;left:25px;width:100px;height:52px;line-height:20px;text-align: center;border-bottom:1px solid #FA640C;}
+.div1 b,.div3 b{position:absolute;top:130px;left:52px;font-weight:normal;color:#FF893D;font-size:15px;}
+.div2 .p1{position:absolute;top:147px;left:168px;width:208px;height:52px;line-height:20px;text-align: center;border-bottom:1px solid #FFF;}
+.div2 .p1 b{font-size:30px;color:#FEFEFE;}
+.div2 span{position:absolute;top:235px;left:200px;font-weight:normal;color:#FFF;font-size:15px;}
+.div3 .p1{height:35px;position:absolute;top:85px;left:25px;}
+.div3 b{position:absolute;top:130px;left:32px;}
+
+/*预约咨询与MM计划*/
+.time{width:300px;height:180px;margin:0 auto;text-align:center;font-size:18px;}
+.time .p1,.time .p2{width:100%;height:45px;color: #414A5B;}
+.time .p2{width:100%;height:60px;}
+.time .order{display:inline-block;width:130px;height:40px;background:#FF8A3E;line-height:40px;float:left;border-radius:3px;color:#fff;}
+.time .MM{display:inline-block;width:130px;height:40px;line-height:40px;float:right;border-radius:3px;color:#FF8739;border:2px solid #FF8B40;}
+.time .p3{width:100%;height:60px;line-height:30px;font-size:16px;}
+.time .p3 span{color:#FF9250;}
+
+/*购买界面*/
+.time input{display:inline-block;width:100%;height:30px;font-family:"Microsoft YaHei";border:1px solid #F0F0F0;line-height:30px;font-size:14px;}
+.time .by{display:inline-block;width:130px;height:40px;background:#FF8A3E;line-height:40px;float:left;border-radius:3px;color:#fff;}
+.time .order1{display:inline-block;width:130px;height:40px;line-height:40px;float:right;border-radius:3px;color:#FF8739;border:2px solid #FF8B40;}
+
+/*旋转动画*/
+.ico{width:100%;height:280px;background:#F8F8F8;}
+.tubiao{width:920px;height:300px;margin:0 auto;}
+.pub{width:230px;height:240px;text-align:center;position:relative;float:left;}
+.pub span{background:url(../../images/fortune/circle.png)center no-repeat;display: inline-block;width: 130px;height: 112px;margin-top:60px;margin-left:20px;transition:all 1.5s;}
+.atm img{cursor: pointer;width: 45px;height: 69px;position: absolute;left:102px;top:78px;}
+.pub p{font-size:14px;line-height:30px;color:#414A5B;}
+.subscribe img{cursor: pointer;width:64px;height:64px;position: absolute;left:90px;top:83px;}
+.gold img{cursor: pointer;width:64px;height:62px;position: absolute;left:90px;top:83px;}
+.bond img{cursor: pointer;width:59px;height:63px;position: absolute;left:94px;top:83px;}
+.curve{width:100%;height:490px;background:url(../../images/fortune/biao.png)no-repeat;background-size:100% auto;}
+.pub:hover span{transform:rotate(360deg);}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
