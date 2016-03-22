@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>信用贷款</title>
+	<!--public-->
+	<link rel="stylesheet" type="text/css" href="../css/public/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/public/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/public/animate.css">
+	<script type="text/javascript" src="../js/pubic/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../js/pubic/common.js"></script>
+	<!--consult-->
+	<link rel="stylesheet" type="text/css" href="../css/enterprise/loan.css">	
+	<script type="text/javascript" src="../js/enterprise/loan.js"></script>
+</head>	
+<body>
+	<div class="header">
+		<div class="header_wrap w_common clearfix">
+			<div class="h_left left">
+				<span>Hi,金融1号店欢迎您!</span>
+				<i>客服电话:400-6608-571<b>&nbsp;(9:00-18:00)</b></i>
+			</div>
+			<div class="h_right right">
+				<a href="" target="_blank" class="login left">您好，请登录 </a>
+				<a href="" target="_blank" class="reg left">注册</a>
+				<a href="" target="_blank" class="new left">新手指引</a>
+				<div id="qq_qun" class="left">
+					<span class="qq">加入QQ群</span>
+					<div class="qun_content" style="display:none">
+						<div class="arrow_up_k">
+							<span class="arrow_up"></span>
+						</div>
+						<ul>
+							<li><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=95578d53030113363c0fcb95a60911b443fdf49a0b10b7b96860b9f632a9c02c" class="qq" target="_blank">【投资交流】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4d5fb95590a8279dcaea3fe601dda7d36dd959e1a8bb34f6d01d7e2ed1187b6c" class="qq" target="_blank">【肆群】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4dbad2f9e4a903e993f676004feaee51b11fc24801176228d7ecd600b74d7a06" class="qq" target="_blank">【叁群(已满)】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=724d8ba6bf95e71ef7d68ab7dd3cefe0010da511f78648d3a84b82e081068855" class="qq" target="_blank">【贰群(已满)】 </a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=204017f68d8978bcde48cdba53fc78e8d4838111f297823f2a5e449be150c744" class="qq" target="_blank">【壹群(已满)】</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sina_wechat left">
+					<span class="left">关注</span>
+					<a href="" target="_blank" class="sina left">
+						<img src="../images/pubic/h_sina.png" height="22" width="22">
+					</a>
+					<a href="javascript:;"  class="wechat left" id="wechat_ewm">
+						<img src="../images/pubic/h_wechat.png" height="22" width="22">
+						<div class="h_erweima" style="display:none">
+							<div class="arrow_up_k" style="top: -16px;">
+								<span class="arrow_up"></span>
+							</div>
+							<p>
+								<img src="../images/pubic/h_erweima.png" width="73" height="73">
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="h_app left">
+					<a href="" target="_blank">
+						<img src="../images/pubic/h_app.png" height="23" width="100">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="navigation">
+		<div class="w_common navigation_wrap clearfix">
+			<div class="nav_left left">
+				<img src="../images/pubic/logo.png" height="59" width="234">
+			</div>
+			<div class="nav_left1 left">
+				<ul class="nav-box left clearfix">
+					<li class="nav-item">
+						<a href="">首页</a>
+					</li>
+					<li class="nav-item">
+						<a href="">财富管理</a>
+						<ul class="dropbox">
+							<li><a href="">PP宝</a></li>
+							<li><a href="">MM计划</a></li>
+							<li><a href="">天天理财</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">商城</a>
+					</li>
+					<li class="nav-item">
+						<a href="">贷款</a>
+						<ul class="dropbox">
+							<li><a href="">开借</a></li>
+							<li><a href="">房产抵押</a></li>
+							<li><a href="">新三板咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">邮币卡</a>
+					</li>
+					<li class="nav-item">
+					    <a href="">企业服务</a>
+					    <ul class="dropbox">
+							<li><a href="">股权质押</a></li>
+							<li><a href="">信用贷款</a></li>
+							<li><a href="">过桥垫资</a></li>
+							<li><a href="">企业咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+					    <a href="">金融论坛</a>
+					</li>
+				</ul>
+			</div>	
+			<div class="nav_right right">
+				<a href="">
+					个人中心
+				</a>
+			</div>
+		</div>		
+	</div>
+	<div class="bread-nav">
+		<p><a href="##">首页</a> > <a href="##">企业版</a> > <a href="##">企业咨询</a></p>	
+	</div>
+	<!-- banner -->
+	<div class="banner">
+		<div class="banner-cont">
+			<div class="empty"></div>
+			<p>盘活企业库存 · 加速资金流转</p>
+			<h1>信用贷款</h1>
+			<p><i class="left"></i>做别人做不到的<i class="right"></i></p>
+			<a href="##"><span>去贷款</span></a>
+		</div>
+	</div>
+	<!-- 信用贷款 -->
+	<div class="pad-funded">
+		<div class="theme-cont">
+			<div class="cont-left">
+				<div class="pad">
+					<h3>什么是信用贷款?</h3>
+					<p>股权投资是指我司通过购入其股权/股份形式，为符合我司投资策略的企业提供中长期资金支持的业务。</p>
+				</div>
+			</div>
+			<div class="cont-right">
+				<div class="theme">适用企业</div>
+				<p><span></span><em>在北京注册和经营的瞪羚企业、中关村百家创新试点企业、文化创意企业、软件外包企业、绿色环保企业、新材料、新能源企业、节能减排企业、生物医药企业、集成电路设计企业。</em></p>
+				<p style="margin-top: 45px;"><span></span><em>具备“国家千人计划”资格或“北京海聚工程人才”资格的自然人（非硬性标准，对发展前景明朗的企业可适当放宽）。</em></p>
+			</div>
+		</div>
+	</div> 
+	<!-- 业务流程 -->
+	<div class="flow">
+		<div class="theme-1">业务流程</div>
+		<div class="flow-cont">
+			<ul>
+				<li><a href=""><i>1</i><span>客户申请</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>2</i><span>项目受理</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>3</i><span>尽职调查</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>4</i><span>审贷会审批</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>5</i><span>形成决议</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>6</i><span>合同签署</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>7</i><span>落实担保</span><p>基本材料准备和合同签订</p></a></li>
+				<li><a href=""><i>8</i><span>放款</span><p>基本材料准备和合同签订</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 办理条件 -->
+	<div class=" Condition">
+		<div class="theme-2">办理条件</div>
+		<div class="Condition-cont">
+			<ul>
+				<li><a href=""><i class="full"></i><span>盈利要求</span><p>借款人已经取得我司认可的银行贷款批单或已与我司认可的投资机构签署了投资协议</p></a></li>
+				<li><a href=""><i class="new"></i><span>在线开户</span><p>借款人及保证人的主体资格真实、合法，无重大不良信用记、 录无重大涉诉案件</p></a></li>
+				<li><a href=""><i class="not"></i><span>在线开户</span><p>有明确的借款用途和还款来源</p></a></li>
+				<li><a href=""><i class="admit"></i><span>盈利要求</span><p>能满足我司过程控制的要求</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 联系我们 -->
+	<div class="contact">
+		<div class="theme-1">联系我们</div>
+		<div class="contact-cont">
+			<div class="left m-part6-l">
+				<p>如果您需要了解关于金融一号店消费金融更多详情，可以通过以下方式或留言给我们。</p>
+				<div class="list">
+					<ul>
+						<li>
+							<span class="ico1">电话号码</span>
+							<em>400-6608-571</em>
+						</li>
+						<li>
+							<span class="ico2">公司地址</span>
+							<em style="font-style:normal">北京市海淀区中关村南三街6号</em>
+						</li>
+						<li>
+							<span class="ico3">电子邮箱</span>
+							<em>service@jr1.cn</em>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="right m-part6-r">
+				<form action="">
+		            <div class="fir clearfix">
+		                <p>
+		                    <img src="../images/enterprise/loan-people.png" height="23" width="20">
+		                    <input id="jr_contact_name" type="text" class="username" value="您的姓名"   />
+		                </p>
+		                <p>
+		                    <img src="../images/enterprise/loan-email2.png" height="16" width="20" style="margin-top:20px;">
+		                    <input id="jr_contact" type="text" class="contactway" value="您的联系方式" />
+		                </p>
+		            </div>
+		            <div class="sec">
+		                <textarea name="" id="jr_submit_content" cols="30" rows="10" placeholder="请在这里输入您的需求，我们将竭诚为您服务"></textarea>
+		                <p><img id="jr_submit_contact" src="../images/enterprise/loan-need.png" height="39" width="39"></p>
+		            </div>
+		        </form>
+			</div>	
+		</div>
+	</div>
+	<div class="clear" style="clear:both;"></div>
+	<!--footer-->
+	<div class="footer">
+		<div class="f_part1">
+			<div class="w_common f_part clearfix">
+				<div class="f_part1_l left">
+					<ul>
+						<li><a href=""  target="_blank">公司介绍</a></li>
+						<li><a href=""  target="_blank">管理团队</a></li>
+						<li><a href=""  target="_blank">股东介绍</a></li>
+						<li><a href=""  target="_blank">合作伙伴</a></li>
+						<li><a href=""  target="_blank">加入我们</a></li>
+						<li><a href=""  target="_blank">联系我们</a></li>
+					</ul>
+					<h2>COPYRIGHT 2013-2015 JR1.CN All Rights Reserved</h2>
+					<h2>北京投融有道科技有限公司  版权所有</h2>
+					<h2>
+						<a href="http://www.miibeian.gov.cn" title="京ICP备13045972号" target="_blank">京ICP备13045972号</a> 
+						<a href="http://www.bjgaj.gov.cn/" title="京公网安备11010802013140号" target="_blank">京公网安备11010802013140号</a>
+					</h2>
+				</div>
+				<div class="f_part1_r right">
+					<img src="../images/pubic/f_phone.png" height="31" width="287" class="f_phone" alt="f_phone">
+					<div class="f_erweima">
+						<img src="../images/pubic/f_jr1.png" height="88" width="88" title="金融一号店" alt="金融一号店">
+						<img src="../images/pubic/f_tt.png" height="87" width="87" title="天天钱包" alt="天天钱包">
+						<img src="../images/pubic/f_app.png" height="87" width="87" title="app下载" alt="app下载">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f_part2">
+			<div class="w_common clearfix">
+				<a href="http://zhanzhang.anquan.org/physical/report/?domain=www.jr1.cn" title="安全联盟站长平台" target="_blank">
+					<img src="../images/pubic/f_zs1.png" height="32" width="89" alt="安全联盟站长平台">
+				</a>
+	            <a href="http://www.cneca.org/checkshow.php?danganhao=CX2014726110944" title="诚信网站" target="_blank">
+	            	<img src="../images/pubic/f_zs2.png" alt="诚信网站">
+	            </a>
+	            <a href="http://www.miitbeian.gov.cn" title="工信部网站条案系统" target="_blank">
+	            	<img src="../images/pubic/f_zs3.png" alt="工信部网站条案系统">
+	            </a>
+	            <a href="http://webscan.360.cn/index/checkwebsite?url=www.jr1.cn" title="360网站安全检测" target="_blank">
+	            	<img src="../images/pubic/f_zs4.png" alt="360网站安全检测">
+	            </a>
+			</div>
+		</div>
+	</div>
+
+	<!--返回顶部-->
+	<div id="returnback">
+		<div class="back_show">			
+			<a href="" class="back_show_back">
+				<img src="../images/pubic/return_01.png" height="71" width="75">
+			</a>
+			<a href="javascript:;">
+				<img src="../images/pubic/return_03.png" height="50" width="75">
+			</a>
+		</div>
+		<div class="back_hide" style="display:none">
+			<a href="" class="back_show_back">返回顶部</a>
+			<a href="javascript:;">意见反馈</a>
+		</div>		
+	</div>
+</body>
+</html>

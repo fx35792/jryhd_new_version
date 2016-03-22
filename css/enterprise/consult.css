@@ -1,0 +1,61 @@
+/*面包屑导航*/
+.bread-nav{height:40px;width:100%;background-color:#fff;border-top:1px solid #e7e7e7;}
+.bread-nav p{width:1200px;height:40px;line-height:40px;font-size:14px;margin:0 auto;}
+.bread-nav p a{color:#3e485b;}
+/*banner*/
+.banner{background:url(../../images/enterprise/consult-banner.png)no-repeat center;width:100%;height:511px;background-color:#717171;}
+.banner-cont{width:650px;margin:0 auto;padding:100px 0;}
+.banner-cont .empty{width:360px;border-top:1px solid #fff;margin:0 auto;}
+.banner-cont p{font-size:18px;color:#fff;text-align:center;padding:26px 0;font-weight:600;letter-spacing:2px;}
+.banner-cont p i{display:inline-block;height:18px;width:100px;background:url(../../images/enterprise/left.png)no-repeat left;vertical-align:middle;}
+.banner-cont p .right{background:url(../../images/enterprise/right.png)no-repeat right;}
+.banner-cont h1{font-size:50px;color:#fff;text-align:center;letter-spacing:2px;}
+@keyframes myfirst
+{
+from {opacity: 0;font-size: 12px}
+to {opacity: 1;font-size: 50px;}
+}
+.banner-cont h1{font-size:50px;color:#fff;text-align: center;letter-spacing:2px; 
+animation: myfirst 0.85s;-moz-animation: myfirst 0.85s;-webkit-animation: myfirst 0.85s;}
+.banner-cont a{display:inline-block;width:360px;height:55px;line-height:55px;margin-top:50px;color:#fff;text-align:center;font-size:28px;font-weight:600;background-color:rgba(255,255,255,0.3); filter:alpha(opacity=30);border:1px solid #fff;margin-left: 145px;border-radius: 6px;}
+.banner-cont a:hover{background-color:rgba(255,255,255,0.1); filter:alpha(opacity=10);}
+/*产品众筹第一部分*/
+.Crowdfunding{width:100%;}
+.theme{background:url(../../images/enterprise/label.png)no-repeat center;width:480px;height:50px;line-height:50px;margin:50px auto;color:#404859;text-align:center;font-size:28px;font-weight:600;}
+.theme-cont{width:1200px;overflow:hidden;margin:0 auto;}
+.theme-cont .cont-left,.theme-cont .cont-right{width:600px;overflow:hidden;margin:0 auto;float: left;margin-bottom:50px;}
+.subtitle{background:url(../../images/enterprise/subtitle.png)no-repeat center;width:98px;height:28px;line-height:28px;margin:25px auto;color:#3f4859;text-align:center;font-size:16px;}
+.cont-left p{width:420px;color:#3e485b;margin:0 auto;font-size:16px;word-spacing:8px;line-height:30px;text-align: justify;} 
+.theme-cont .cont-right{background:url(../../images/enterprise/crowdfunding-1.png)no-repeat center;height:405px;margin:0 auto;vertical-align: middle;}
+/*产品众筹第二部分*/
+.Crowdfunding .theme-cont2{background:url(../../images/enterprise/crowdfunding.png)no-repeat center;width:100%;height:632px;margin:0 auto;position:relative;z-index:9;}
+.theme-cont2 .cont2-left,.theme-cont2 .cont2-right{width:50%;height:632px;float: left;}
+.theme-cont2 .cont2-left{position:absolute;top:0;left:0;z-index:11;}
+.theme-cont2 .cont2-right{background-color:rgba(255,146,109,0.8);filter:alpha(opacity=80);position:absolute;top:0;left:50%;z-index:11;}
+.cont2-left .left-obj{width:348px;overflow:hidden;margin:0 auto;margin-top:110px;position:relative;z-index:11;}
+.left-obj .subhead{background:url(../../images/enterprise/subhead.png)no-repeat center;width:97px;height:69px;line-height:69px;margin:0 auto;color:#fff;text-align:center;font-size:36px;font-weight:600;position:absolute;}
+.left-obj p{height:68px;font-size:14px;color:#404859;background-color:#fff;border-radius:8px;line-height:33px;margin-left:60px;text-align: left;padding-left:42px;margin-top:45px;}
+
+.cont2-right .right-goal{width:440px;overflow:hidden;margin-left:40px;margin-top:110px;}
+.goal{height:50px;margin-top:35px;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;transition: all .3s ease;}
+.goal:hover{padding-left: 10px;}
+.goal span,.goal p{float: left;}
+.right-goal p{height:50px;line-height:23px;width:400px;color:#fff;font-size:16px;font-weight:bold;letter-spacing: 1px;}
+.right-goal span{display:inline-block;height:47px;width:6px;background-color:#fff;border-radius:5px;margin-right: 10px;}
+/*股权众筹*/
+.stock-Crowdfunding{width:100%;}
+.stock-right p{width:420px;color:#3e485b;margin:15px auto;font-size:16px;line-height:25px;text-align: justify;}
+.theme-cont .stock-left,.theme-cont .stock-right{width:600px;overflow:hidden;margin:0 auto;float: left;margin-bottom:76px;} 
+.theme-cont .stock-left{background:url(../../images/enterprise/stock.png)no-repeat center;height:345px;margin:0 auto;vertical-align: middle;}
+/*融资服务*/
+.finance{background:url(../../images/enterprise/finance.png)no-repeat center;width:100%;height:632px;}
+.finance .finance-bg{width:100%;height:632px;background-color:rgba(255,146,109,0.3);filter:alpha(opacity=30);}
+.finance-cont{width:965px;margin:20px auto;}
+.finance-cont .step1,.finance-cont .step2,.finance-cont .step3{float: left;}
+.finance-cont .step1 p,.finance-cont .step2 p,.finance-cont .step3 p{width:230px;line-height: 24px;font-size: 14px;margin: 116px 10px;letter-spacing: 1px;color:#3e485b;text-align:justify;}
+.finance-cont .step1{background:url(../../images/enterprise/step-1.png)no-repeat center;height:307px;margin-right:85px;}
+.finance-cont .step2{background:url(../../images/enterprise/step-2.png)no-repeat center;height:307px;margin-right:85px;}
+.finance-cont .step3{background:url(../../images/enterprise/step-3.png)no-repeat center;height:307px;line-height:inherit;}
+/*返回顶部*/
+#back-top{position:fixed; bottom:20px;right:20px; display:none;}
+#back-top span{width: 50px;height: 64px;display: block;background: url(../../images/enterprise/top.png) no-repeat center center;}

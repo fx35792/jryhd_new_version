@@ -1,0 +1,76 @@
+/*面包屑导航*/
+.bread-nav{height:40px;width:100%;background-color:#fff;border-top:1px solid #e7e7e7;}
+.bread-nav p{width:1200px;height:40px;line-height:40px;font-size:14px;margin:0 auto;}
+.bread-nav p a{color:#3e485b;}
+/*banner*/
+.banner{background:url(../../images/enterprise/sdj-banner.png)no-repeat center;width:100%;height:511px;background-color:#717171;}
+.banner-cont{width:550px;margin:0 auto;padding:100px 0;}
+.banner-cont h2{font-size:28px;color:#fff;text-align:center;padding:30px 0;font-weight:normal;}
+.banner-cont p{font-size:28px;color:#fff;text-align:center;padding:26px 0;font-weight:600;letter-spacing:2px;}
+.banner-cont p i{display:inline-block;height:18px;width:158px;background:url(../../images/enterprise/sdj.png)no-repeat left;vertical-align:middle;}
+.banner-cont h1{font-size:50px;color:#fff;text-align:center;letter-spacing:2px;}
+@keyframes myfirst
+{
+from {opacity: 0;font-size: 12px}
+to {opacity: 1;font-size: 50px;}
+}
+.banner-cont h1{font-size:50px;color:#fff;text-align: center;letter-spacing:2px; 
+animation: myfirst 0.85s;-moz-animation: myfirst 0.85s;-webkit-animation: myfirst 0.85s;}
+.banner-cont span{display:inline-block;width: 448px;line-height: 25px;margin-left: 50px;margin-top:50px;color:#fff;text-align:center;font-size:16px;}
+/*质押*/
+.pledge{width:100%;background-color:#f8f8f8;}
+.pledge-cont{width:1200px;overflow:hidden;margin:0 auto;}
+.pledge-cont .cont-left,.pledge-cont .cont-right{width:600px;overflow:hidden;float: left;margin:70px 0;}
+.subtitle{color:#3f4859;font-size:28px;font-weight:600;}
+.cont-left p{width:538px;margin:0 auto;font-size:16px;word-spacing:8px;line-height:30px;color:#3e485b;text-align: justify;} 
+.cont-left p span{display:inline-block;width:6px;height:6px;background-color:#3f4859;border-radius:3px;}
+.pledge-cont .cont-right table{border:solid #cdcdcd; border-width:1px 0px 0px 1px;width:480px;text-align:center;font-size:16px;margin-left:35px;color:#3e485b;}
+.pledge-cont .cont-right td{border:solid #cdcdcd; border-width:0px 1px 1px 0px;height:55px;line-height:55px;}
+.cont-right p{width:480px;font-size:16px;word-spacing:8px;line-height:30px;margin-top:23px;margin-left:35px;color:#3e485b;} 
+.cont-right p span{display:inline-block;width:6px;height:6px;background-color:#3f4859;border-radius:3px;}
+.cont-right p em{font-weight:normal;padding-left: 20px;display: inline-block;margin-top: -27px;color:#3e485b;text-align: justify;}
+/*合作方式*/
+.sdj-way{background:url(../../images/enterprise/sdj-way.png)no-repeat center;width:100%;height:511px;margin:0 auto;}
+.sdj-way h2{font-size:28px;font-weight:600;color:#fff;text-align:center;padding-top:70px;}
+.way{width:1080px;overflow:hidden;margin:140px auto;}
+.way .way-cont{width：240px;animate-duration: 2s;animate-delay: 1s;animate-iteration-count: 3;}
+.way-cont .user{background:url(../../images/enterprise/user.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.way-cont .fix{background:url(../../images/enterprise/fix.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.way-cont .service{background:url(../../images/enterprise/service.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.way-cont .user:hover{background:url(../../images/enterprise/huser.png)no-repeat center;}
+.way-cont .fix:hover{background:url(../../images/enterprise/hfix.png)no-repeat center;}
+.way-cont .service:hover{background:url(../../images/enterprise/hservice.png)no-repeat center;}
+.way-cont p{width:240px;font-size:16px;color:#fff;line-height:25px;text-align: center;margin-top: 40px;}
+/*合作模式*/
+.model{width:100%;background-color:#f8f8f8;}
+.model h2{font-size:28px;font-weight:600;color:#3e485b;text-align:center;padding-top:70px;}
+.model .model-cont{width:1200px;overflow:hidden;margin:0 auto;}
+.model-left,.model-right{width:600px;overflow:hidden;float: left;margin-top:50px;margin-bottom:75px;}
+.model-left .left-cont,.model-left .left-zhu{width:480px;overflow:hidden;margin:0 auto;}
+.model-left .left-cont p{width:480px;font-size:16px;word-spacing:8px;line-height:30px;text-align: left;color:#3e485b;}
+.model-left .left-cont p span{display:inline-block;width:6px;height:6px;background-color:#3f4859;border-radius:3px;}
+.model-left .left-zhu p{width:480px;font-size:16px;word-spacing:8px;line-height:30px;text-align: left;color:#ff7b23;margin-top:30px;}
+.model-left .left-zhu p span{display:inline-block;width:6px;height:6px;background-color:#ff7b23;border-radius:3px;}
+.model-left .left-zhu p em{font-weight:normal;padding-left: 20px;display: inline-block;margin-top: -27px;text-align:justify;}
+
+.model-right .right-state{width:535px;margin:0 auto;height:270px;background-color:#fff;border:1px dashed #ddd;border-radius:6px;}
+.model-right .right-state h3{padding-left:55px;padding-top:40px;font-size:16px;color:#acacac;font-weight:600;}
+.model-right .right-state p{margin:10px 55px;font-size:16px;color:#acacac;line-height:25px;letter-spacing: 1px;text-align:justify;} 
+/*在线服务*/
+.line-serve{background:url(../../images/enterprise/sdj-money.png)no-repeat center;width:100%;height:511px;margin:0 auto;}
+.line-serve h3{font-size:28px;font-weight:600;color:#fff;text-align:center;padding-top:70px;}
+.serve{width:1200px;overflow:hidden;margin:100px auto;}
+.serve .serve-cont{width:200px;margin:0 auto; animate-duration: 2s;animate-delay: 1s;animate-iteration-count: 3;}
+
+.serve .dashed{background:url(../../images/enterprise/dashed.png)no-repeat center;width:100px;height:160px;margin:0 15px;}
+.serve-cont .security{background:url(../../images/enterprise/security.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.serve-cont .security:hover{background:url(../../images/enterprise/hsecurity.png)no-repeat center;}
+.serve-cont .efficient{background:url(../../images/enterprise/efficient.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.serve-cont .efficient:hover{background:url(../../images/enterprise/hefficient.png)no-repeat center;}
+.serve-cont .major{background:url(../../images/enterprise/major.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.serve-cont .major:hover{background:url(../../images/enterprise/hmajor.png)no-repeat center;}
+.serve-cont .strength{background:url(../../images/enterprise/strength.png)no-repeat center;width:74px;height:78px;margin:0 auto;}
+.serve-cont .strength:hover{background:url(../../images/enterprise/hstrength.png)no-repeat center;}
+.serve-cont span{display:inline-block;width:200px;font-size:28px;color:#fff;line-height:60px;text-align: center;border-bottom:1px solid #fff;font-weight:600;}
+.serve-cont p{font-size:18px;color:#fff;line-height:35px;text-align: center;border-bottom:1px solid #fff;font-weight:bold;}
+

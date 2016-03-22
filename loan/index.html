@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>金融一号店-信贷</title>
+	<!--public-->
+	<link rel="stylesheet" type="text/css" href="../css/public/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/public/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/public/animate.css">
+	<script type="text/javascript" src="../js/pubic/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../js/pubic/common.js"></script>
+	<script type="text/javascript" src="../js/pubic/jquery.kinMaxShow-1.1.min.js" ></script>
+	<script type="text/javascript" src="../js/pubic/timeCountDown2.js"></script>
+	<!--index-->
+	<link rel="stylesheet" type="text/css" href="../css/house/xindai.css">	
+	<script type="text/javascript" src="../js/house/xindai.js"></script>
+</head>
+<body>	
+	<div class="header">
+		<div class="header_wrap w_common clearfix">
+			<div class="h_left left">
+				<span>Hi,金融1号店欢迎您!</span>
+				<i>客服电话:400-6608-571<b>&nbsp;(9:00-18:00)</b></i>
+			</div>
+			<div class="h_right right">
+				<a href="" target="_blank" class="login left">您好，请登录 </a>
+				<a href="" target="_blank" class="reg left">注册</a>
+				<a href="" target="_blank" class="new left">新手指引</a>
+				<div id="qq_qun" class="left">
+					<span class="qq">加入QQ群</span>
+					<div class="qun_content" style="display:none">
+						<div class="arrow_up_k">
+							<span class="arrow_up"></span>
+						</div>
+						<ul>
+							<li><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=95578d53030113363c0fcb95a60911b443fdf49a0b10b7b96860b9f632a9c02c" class="qq" target="_blank">【投资交流】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4d5fb95590a8279dcaea3fe601dda7d36dd959e1a8bb34f6d01d7e2ed1187b6c" class="qq" target="_blank">【肆群】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=4dbad2f9e4a903e993f676004feaee51b11fc24801176228d7ecd600b74d7a06" class="qq" target="_blank">【叁群(已满)】</a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=724d8ba6bf95e71ef7d68ab7dd3cefe0010da511f78648d3a84b82e081068855" class="qq" target="_blank">【贰群(已满)】 </a></li>
+							<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=204017f68d8978bcde48cdba53fc78e8d4838111f297823f2a5e449be150c744" class="qq" target="_blank">【壹群(已满)】</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sina_wechat left">
+					<span class="left">关注</span>
+					<a href="" target="_blank" class="sina left">
+						<img src="../images/pubic/h_sina.png" height="22" width="22">
+					</a>
+					<a href="javascript:;"  class="wechat left" id="wechat_ewm">
+						<img src="../images/pubic/h_wechat.png" height="22" width="22">
+						<div class="h_erweima" style="display:none">
+							<div class="arrow_up_k" style="top: -16px;">
+								<span class="arrow_up"></span>
+							</div>
+							<p>
+								<img src="../images/pubic/h_erweima.png" width="73" height="73">
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="h_app left">
+					<a href="" target="_blank">
+						<img src="../images/pubic/h_app.png" height="23" width="100">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="navigation">
+		<div class="w_common navigation_wrap clearfix">
+			<div class="nav_left left">
+				<img src="../images/pubic/logo.png" height="59" width="234">
+			</div>
+			<div class="nav_left1 left">
+				<ul class="nav-box left clearfix">
+					<li class="nav-item">
+						<a href="">首页</a>
+					</li>
+					<li class="nav-item">
+						<a href="">财富管理</a>
+						<ul class="dropbox">
+							<li><a href="">PP宝</a></li>
+							<li><a href="">MM计划</a></li>
+							<li><a href="">天天理财</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">商城</a>
+					</li>
+					<li class="nav-item">
+						<a href="">贷款</a>
+						<ul class="dropbox">
+							<li><a href="">开借</a></li>
+							<li><a href="">房产抵押</a></li>
+							<li><a href="">新三板咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="">邮币卡</a>
+					</li>
+					<li class="nav-item">
+					    <a href="">企业服务</a>
+					    <ul class="dropbox">
+							<li><a href="">股权质押</a></li>
+							<li><a href="">信用贷款</a></li>
+							<li><a href="">过桥垫资</a></li>
+							<li><a href="">企业咨询</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+					    <a href="">金融论坛</a>
+					</li>
+				</ul>
+			</div>	
+			<div class="nav_right right">
+				<a href="">
+					个人中心
+				</a>
+			</div>
+		</div>		
+	</div>
+	<!--面包屑-->
+	<div class="house_wrap">
+		<div class="w_common">
+			<a href="">首页</a>&gt;<a href="">贷款</a>&gt;<a href="javascript:;">房产抵押贷款</a>
+		</div>		
+	</div>
+
+	<!--房产抵押贷款 header-->
+	<div class="house_header">
+		<div class="w_common">
+			<h2>房产抵押贷款</h2>
+			<a href="javascript:;" class="now_apply">立即申请</a>
+		</div>
+	</div>
+
+	<!--产品概述-->
+	<div class="house_part1 w_common">
+		<div class="house_part1_head">
+			<img src="../images/house/house_bg2.png" height="29" width="459">
+		</div>
+		<div class="house_part1_content">
+			<div class="house_ico h_ico1">
+				<img src="../images/house/house_ico1.png" height="67" width="58" class="house_ico1">
+				<span>费率低、服务好</span>
+			</div>
+			<div class="house_ico h_ico2">
+				<img src="../images/house/house_ico2.png" height="66" width="66" class="house_ico2">
+				<span>成数高、范围广</span>
+			</div>
+			<div class="house_ico h_ico3">
+				<img src="../images/house/house_ico3.png" height="62" width="62" class="house_ico3">
+				<span>放款快、效率高</span>
+			</div>
+		</div>
+	</div>
+	
+	<!--借款受理准入条件 condition-->
+	<div class="house_condition">
+		
+	</div>
+	
+	<!--房产受理条件-->
+	<div class="house_part2 w_common">
+		<div class="house_part2_head">
+			<img src="../images/house/house_bg4.png" height="29" width="518">
+		</div>
+		<div class="house_part2_content clearfix">
+			<div class="h_bg h_bg1">
+				<h2>房产类型</h2>
+				<p>普通住宅、公寓、商住、满五年经济适用房、商业用房（空置、特殊行业除外）、别墅</p>
+			</div>
+			<div class="h_bg h_bg2">
+				<h2>二抵业务</h2>
+				<p>只接受一抵在银行的按揭贷款（非最高额）、消费贷以及经营贷</p>
+			</div>
+			<div class="h_bg h_bg3">
+				<h2>房产位置</h2>
+				<p>北京房产（除怀柔、延庆、平谷、密云）</p>
+			</div>
+		</div>
+	</div>	
+
+	<!--房产要素-->
+	<div class="house_part3">
+		<div class="w_common">
+			<div class="house_part3_head">
+				<img src="../images/house/house_bg5.png" height="29" width="458">
+			</div>
+			<div class="house_part3_content clearfix">
+				<div class="house_part3_left left">
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="../images/house/ys_ico1.png" height="60" width="57">
+							</span>
+							<div class="content left">
+								<h2>贷款金额</h2>
+								<p>
+									50-2000，贷款期限1-12月，需每6个月归<br/>
+									本或缴纳0.5%归本费用，单套房产原则上不超过1000万
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="../images/house/ys_ico2.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>贷款期限</h2>
+								<p>
+									贷款期限1-12月
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="../images/house/ys_ico3.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>借款利率</h2>
+								<p>
+									>月息1.5%；服务费1%，一次性收取
+								</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="house_part3_right left">
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="../images/house/ys_ico4.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>还款方式</h2>
+								<p>
+									上扣一个月利息，以实际发放日对日按月付息，到期还本
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="../images/house/ys_ico5.png" height="60" width="57">
+							</span>
+							<div class="content left">
+								<h2>公证事项</h2>
+								<p>
+									借款合同强制执行公证、解押及出售委托公证、房屋抵押身份证<br/>
+									等同原件公证、户口本等同原件公证、结婚证/离婚证等同原件公证
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="common_content">
+						<div class="h_item clearfix">
+							<span class="left">
+								<img src="../images/house/ys_ico6.png" height="60" width="57">
+							</span>
+							<div class="content left" style="margin-top:8px;">
+								<h2>成数计算</h2>
+								<p>
+									住宅 70%-80%	    商业 50%-60%    别墅 40%-50%
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+	
+	<!--各类费用及收取方式-->
+	<div class="house_part4 w_common">
+		<div class="house_part4_head">
+			<img src="../images/house/house_bg7.png" height="29" width="608">
+		</div>
+		<div class="house_part4_content clearfix">
+			<div class="house_part4_item clearfix" style="margin-top:70px;">
+				<i></i>
+				<p>
+					公证费由借款人负担，按照公证处标准收取，随上扣的利息一并交付
+				</p>
+			</div>
+			<div class="house_part4_item clearfix">
+				<i></i>
+				<p>
+					抵押登记费：抵押登记费由借款人负担，按照房管局标准收取，随上扣的利息一并交付
+				</p>
+			</div>
+			<div class="house_part4_item clearfix">
+				<i></i>
+				<p>
+					返费说明<br/>
+					返费时间：收到利息回款后2个工作日内<br/>
+					返费方式：代收代返
+				</p>
+			</div>			
+		</div>
+	</div>	
+
+	<!--业务流程-->
+	<div class="house_part5">
+		<div class="w_common">
+			<div class="house_part5_head">
+				<img src="../images/house/house_bg9.png" height="28" width="458">
+			</div>
+			<div class="house_part5_content">
+				<div class="yw_ico">
+					<h3>1</h3>
+					<h2>提交订单</h2>
+					<p>通过微信填写基本信息，上传借款人身份证、房本照片（要求无遮挡、涂改，可为复印件）</p>
+				</div>
+				<div class="yw_ico">
+					<h3>2</h3>
+					<h2>初评反馈</h2>
+					<p>20分钟内反馈基本意见，预约下户时间（最快一小时下户）</p>
+				</div>
+				<div class="yw_ico">
+					<h3>3</h3>
+					<h2>下户加终审反馈</h2>
+					<p>下户调查当天出审批结论，抵押手续</p>
+				</div>
+				<div class="yw_ico">
+					<h3>4</h3>
+					<h2>放 款</h2>
+					<p>完成抵押手续、材料备齐后，当日放款</p>
+				</div>
+				<div class="yw_ico" style="margin-right:0;">
+					<h3>5</h3>
+					<h2>展 款</h2>
+					<p>每6个月提前10个工作日申请，只需缴纳0.5%手续费。</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!--所需资料-->
+	<div class="house_part6 w_common">
+		<div class="house_part6_head">
+			<img src="../images/house/house_bg10.png" height="27" width="458" class="img">
+		</div>
+		<div class="house_part4_content clearfix">
+			<div class="house_part4_left left">
+				<h2>借款人资料</h2>
+				<div class="left_content clearfix">
+					<div class="left_part1 left">
+						<h3>基本资料</h3>
+						<table>
+							<tr>
+								<td class="name">必填</td>
+								<td class="cont">借款人（夫妇）身份证</td>
+							</tr>
+							<tr>
+								<td class="name">必填</td>
+								<td class="cont">借款人（夫妇）户口本</td>
+							</tr>
+							<tr>
+								<td class="name">必填</td>
+								<td class="cont">征信报告</td>
+							</tr>
+							<tr>
+								<td class="name">集体户口</td>
+								<td class="cont">借款人户口卡</td>
+							</tr>
+						</table>
+					</div>
+					<div class="left_part2 left">
+						<h3>特殊资料</h3>
+						<table>
+							<tr>
+								<td class="name">已婚</td>
+								<td class="cont">结婚证</td>
+							</tr>
+							<tr>	
+								<td rowspan="3" class="name">离异</td>					
+								<td class="cont">离婚证或法院判决书</td>
+							</tr>
+							<tr>							
+								<td class="cont">征信报告</td>
+							</tr>
+							<tr>							
+								<td class="cont">婚姻状况声明书</td>
+							</tr>
+							<tr>	
+								<td rowspan="3" class="name">丧偶</td>						
+								<td class="cont">配偶死亡证明</td>
+							</tr>
+							<tr>
+								<td class="cont">婚姻状况声明书</td>
+							</tr>
+							<tr>
+								<td class="cont">放弃继承公证</td>
+							</tr>
+							<tr>
+								<td class="name">单身</td>
+								<td class="cont">婚姻状况声明书</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>	
+			<div class="house_part4_right right">
+				<h2>抵押物资料</h2>
+				<div class="left_content left_content2 clearfix">
+					<div class="left_part2 left">
+						<h3>&nbsp;</h3>
+						<table>
+							<tr>
+								<td colspan="2" class="cont2">1.基本资料</td>
+							</tr>
+							<tr>
+								<td rowspan="2" class="name">二抵</td>
+								<td class="cont2">房产证、共有证明</td>
+							</tr>
+							<tr>
+								<td class="cont2">银行贷款合同</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="cont2">2.特殊房产</td>								
+							</tr>
+							<tr>
+								<td class="name">经适房</td>
+								<td class="cont">契税票</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="cont2">3.其他非必须</td>
+							</tr>
+							<tr>
+								<td colspan="2" rowspan="2" class="cont3">借款人其他房产证明、财产证明、银行流水、企业营业执照等证明文件</td>								
+							</tr>
+							<tr>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<!--咨询弹出层 common.css common.js-->
+	<div class="pop_layer_box" style="display:none"></div>
+	<div class="pop_layer_box_content" style="display:none;">
+		<img src="../images/pubic/close.png" height="37" width="37" class="pop_close">
+		<!--第一种 提交页面显示 -->
+		<div class="pop_content">
+			<h2>提交信息</h2>
+			<form action="">
+				<p>
+					<label for="">真实姓名</label>
+					<input type="text">
+				</p>
+				<p>
+					<label for="" class="letter-s tel">电<i></i>话</label>
+					<input type="text">
+				</p>
+				<p>
+					<label for="" class="letter-s  address">地<i></i>区</label>
+					<input type="text">
+				</p>
+				<input type="submit" value="提交" class="submit">
+			</form>
+		</div>
+		<!--第二种 提交后的页面隐藏-->
+		<div class="pop_content1" style="display:none;">
+			<h2>提示</h2>
+			<img src="../images/pubic/completed_img.png" height="154" width="175">
+			<p>您的有效信息已经提交，请耐心等待工作人员与您联系！</p>
+		</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<div class="f_part1">
+			<div class="w_common f_part clearfix">
+				<div class="f_part1_l left">
+					<ul>
+						<li><a href=""  target="_blank">公司介绍</a></li>
+						<li><a href=""  target="_blank">管理团队</a></li>
+						<li><a href=""  target="_blank">股东介绍</a></li>
+						<li><a href=""  target="_blank">合作伙伴</a></li>
+						<li><a href=""  target="_blank">加入我们</a></li>
+						<li><a href=""  target="_blank">联系我们</a></li>
+					</ul>
+					<h2>COPYRIGHT 2013-2015 JR1.CN All Rights Reserved</h2>
+					<h2>北京投融有道科技有限公司  版权所有</h2>
+					<h2>
+						<a href="http://www.miibeian.gov.cn" title="京ICP备13045972号" target="_blank">京ICP备13045972号</a> 
+						<a href="http://www.bjgaj.gov.cn/" title="京公网安备11010802013140号" target="_blank">京公网安备11010802013140号</a>
+					</h2>
+				</div>
+				<div class="f_part1_r right">
+					<img src="../images/pubic/f_phone.png" height="31" width="287" class="f_phone" alt="f_phone">
+					<div class="f_erweima">
+						<img src="../images/pubic/f_jr1.png" height="88" width="88" title="金融一号店" alt="金融一号店">
+						<img src="../images/pubic/f_tt.png" height="87" width="87" title="天天钱包" alt="天天钱包">
+						<img src="../images/pubic/f_app.png" height="87" width="87" title="app下载" alt="app下载">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f_part2">
+			<div class="w_common clearfix">
+				<a href="http://zhanzhang.anquan.org/physical/report/?domain=www.jr1.cn" title="安全联盟站长平台" target="_blank">
+					<img src="../images/pubic/f_zs1.png" height="32" width="89" alt="安全联盟站长平台">
+				</a>
+	            <a href="http://www.cneca.org/checkshow.php?danganhao=CX2014726110944" title="诚信网站" target="_blank">
+	            	<img src="../images/pubic/f_zs2.png" alt="诚信网站">
+	            </a>
+	            <a href="http://www.miitbeian.gov.cn" title="工信部网站条案系统" target="_blank">
+	            	<img src="../images/pubic/f_zs3.png" alt="工信部网站条案系统">
+	            </a>
+	            <a href="http://webscan.360.cn/index/checkwebsite?url=www.jr1.cn" title="360网站安全检测" target="_blank">
+	            	<img src="../images/pubic/f_zs4.png" alt="360网站安全检测">
+	            </a>
+			</div>
+		</div>
+	</div>
+
+	<!--返回顶部-->
+	<div id="returnback">
+		<div class="back_show">			
+			<a href="" class="back_show_back">
+				<img src="../images/pubic/return_01.png" height="71" width="75">
+			</a>
+			<a href="javascript:;">
+				<img src="../images/pubic/return_03.png" height="50" width="75">
+			</a>
+		</div>
+		<div class="back_hide" style="display:none">
+			<a href="" class="back_show_back">返回顶部</a>
+			<a href="javascript:;">意见反馈</a>
+		</div>		
+	</div>
+</body>
+</html>

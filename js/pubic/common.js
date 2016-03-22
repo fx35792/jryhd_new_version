@@ -67,5 +67,15 @@ $(function(){
     	});		
     });
 
+    //咨询弹出层
+    $(".now_apply").click(function() {
+        $(".pop_layer_box").show();        
+        $(".pop_layer_box_content").show().addClass("animated bounceInDown");        
+    });
+    $(".pop_close").click(function() {
+        $(".pop_layer_box").hide();
+        $(".pop_layer_box_content").hide();        
+    });
+
 
 });
